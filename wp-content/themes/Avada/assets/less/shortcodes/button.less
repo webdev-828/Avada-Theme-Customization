@@ -1,0 +1,573 @@
+.button-dimensions( @dim-height, @dim-padding-horizontal, @dim-padding-vertical, @dim-line-height @dim-font, @dim-3d-top ) {
+	padding: @dim-padding-vertical @dim-padding-horizontal;
+	line-height: @dim-line-height;
+	font-size: @dim-font;
+
+	&.button-3d:active {
+		top: @dim-3d-top;
+	}
+
+	.fusion-button-text-left {
+		display: inline-block;
+		padding-left: @dim-padding-horizontal + 5;
+	}
+
+	.fusion-button-text-right {
+		display: inline-block;
+		padding-right: @dim-padding-horizontal + 5 ;
+	}
+
+	.button-icon-divider-left {
+		padding: 0 ( @dim-height - @dim-font ) / 2;
+
+		&.fusion-megamenu-image {
+			padding: 0 ( @dim-height - @dim-font ) / 4;
+		}
+	}
+
+	.button-icon-divider-right {
+		padding: 0 ( @dim-height - @dim-font ) / 2;
+
+		&.fusion-megamenu-image {
+			padding: 0 ( @dim-height - @dim-font ) / 4;
+		}
+	}
+
+	.button-icon-divider-left i,
+	.button-icon-divider-right i,
+	.button-icon-divider-left img,
+	.button-icon-divider-right img {
+		top: 50%;
+		margin-top: -( @dim-font / 2 );
+		display: block;
+	}
+}
+
+.button-colors( @grad-bottom-color, @grad-top-color, @border-color, @text-color ) {
+	background: @grad-top-color;
+	background-image: -webkit-gradient( linear, left bottom, left top, from( @grad-bottom-color ), to( @grad-top-color ) );
+	background-image: -webkit-linear-gradient( bottom, @grad-bottom-color, @grad-top-color );
+	background-image:	-moz-linear-gradient( bottom, @grad-bottom-color, @grad-top-color );
+	background-image:	  -o-linear-gradient( bottom, @grad-bottom-color, @grad-top-color );
+	background-image: linear-gradient( to top, @grad-bottom-color, @grad-top-color );
+
+	border: 1px solid @border-color;
+	color: @text-color;
+
+	.button-icon-divider-left,
+	.button-icon-divider-right {
+		border-color: @border-color;
+	}
+}
+
+.button-3d-effect( @3d-highlight-color, @3d-color ) {
+	&.fusion-button-small,
+	&.button-small {
+		.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 2px 0px @3d-color, 1px 4px 4px 2px rgba(0,0,0,0.3) );
+
+		&:active {
+			.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 1px 0px @3d-color, 1px 4px 4px 2px rgba(0,0,0,0.3) );
+		}
+	}
+
+	&.fusion-button-medium,
+	&.button-medium {
+		.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 3px 0px @3d-color, 1px 5px 5px 3px rgba(0,0,0,0.3) );
+
+		&:active {
+			.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 1px 0px @3d-color, 1px 5px 5px 3px rgba(0,0,0,0.3) );
+		}
+	}
+
+	&.fusion-button-large,
+	&.button-large {
+		.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 4px 0px @3d-color, 1px 6px 6px 3px rgba(0,0,0,0.3) );
+
+		&:active {
+			.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 1px 0px @3d-color, 1px 6px 6px 3px rgba(0,0,0,0.3) );
+		}
+	}
+
+	&.fusion-button-xlarge,
+	&.button-xlarge {
+		.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 5px 0px @3d-color, 1px 7px 7px 3px rgba(0,0,0,0.3) );
+
+		&:active {
+			.button-box-shadow( inset 0px 1px 0px @3d-highlight-color, 0px 2px 0px @3d-color, 1px 7px 7px 3px rgba(0,0,0,0.3) );
+		}
+	}
+}
+
+.button-box-shadow( @shadow-arg-1, @shadow-arg-2, @shadow-arg-3 ) {
+	-webkit-box-shadow: @shadow-arg-1, @shadow-arg-2, @shadow-arg-3;
+	-moz-box-shadow: 	@shadow-arg-1, @shadow-arg-2, @shadow-arg-3;
+	box-shadow: 		@shadow-arg-1, @shadow-arg-2, @shadow-arg-3;
+}
+
+.fusion-button-wrapper {
+	display: inline;
+
+	&.fusion-aligncenter {
+		display: block;
+	}
+}
+
+.fusion-button,
+.post-password-form input[type="submit"],
+.wpcf7-submit,
+.gform_wrapper .gform_button,
+.gform_wrapper .button,
+.woocommerce .checkout #place_order,
+.bbp-submit-wrapper .button
+{
+	display: inline-block;
+	position: relative;
+	outline: 0;
+	.clearfix();
+
+	border: 1px solid rgba( 0, 0, 0, 0 );
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+
+	&:hover {
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-ms-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}
+
+.fusion-button-text,
+.fusion-button-icon-divider,
+.fusion-button i {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+
+	&:hover {
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-ms-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+}
+
+.ls-container {
+	.button,
+	.fusion-button {
+		-webkit-transition: none !important;
+		-moz-transition: none !important;
+		-ms-transition: none !important;
+		-o-transition: none !important;
+		transition: none !important;
+
+		&:hover {
+			-webkit-transition: none !important;
+			-moz-transition: none !important;
+			-ms-transition: none !important;
+			-o-transition: none !important;
+			transition: none !important;
+		}
+	}
+}
+
+#wrapper .fusion-button-square,
+.fusion-body .fusion-button-square,
+#wrapper .button-square {
+	border-radius: 0;
+}
+
+#wrapper .fusion-button-round,
+.fusion-body .fusion-button-round,
+#wrapper .button-round {
+	border-radius: 2px;
+
+	&.button-3d {
+		border-radius: 4px;
+	}
+}
+
+#wrapper .fusion-button-pill,
+.fusion-body .fusion-button-pill,
+#wrapper .button-pill {
+	border-radius: 25px !important;
+}
+
+.fusion-body .fusion-button-small,  .button-small, .button.small, .post-password-form input[type="submit"], #bbp_user_edit_submit, .woocommerce .single_add_to_cart_button, .bbp-submit-wrapper .button {
+	.button-dimensions( 32px, 20px, 9px, 14px, 12px, 2px );
+}
+
+.fusion-body .fusion-button-medium,  .button-medium, .button.medium,.woocommerce .checkout #place_order, .ticket-selector-submit-btn[type=submit] {
+	.button-dimensions( 38px, 23px, 11px, 16px, 13px, 3px );
+}
+
+.fusion-body .fusion-button-large,  .button-large, .button.large, #tribe-bar-form .tribe-bar-submit input[type=submit] {
+	.button-dimensions( 43px, 29px, 13px, 17px, 14px, 4px );
+}
+
+.fusion-body .fusion-button-xlarge,  .button-xlarge, .button.xlarge {
+	.button-dimensions( 55px, 40px, 17px, 21px, 18px, 6px );
+}
+
+.button span {
+	line-height: normal;
+}
+
+@media only screen and (max-width: 800px){
+	.rev_slider .fusion-button,
+	.rev_slider .button,
+	.ls-container .fusion-button,
+	.ls-container .button {
+		.button-dimensions( 32px, 20px, 0, 30px, 12px, 2px );
+		font-size: 10px !important;
+		line-height: 30px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+		&.button-3d:active {
+			top: 2px !important;
+		}
+	}
+	.rev_slider .fusion-button span,
+	.rev_slider .button span,
+	.ls-container .fusion-button span,
+	.ls-container .button span {
+		font-size: 10px !important;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.rev_slider .fusion-button,
+	.rev_slider .button,
+	.ls-container .fusion-button,
+	.ls-container .button {
+		.button-dimensions( 32px, 20px, 0, 20px, 10px, 2px );
+		font-size: 10px !important;
+		line-height: 20px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+		&.button-3d:active {
+			top: 2px !important;
+		}
+	}
+	.rev_slider .fusion-button span,
+	.rev_slider .button span,
+	.ls-container .fusion-button span,
+	.ls-container .button span {
+		font-size: 10px !important;
+	}
+}
+
+button.fusion-button.button-3d:active {
+	.button-box-shadow( 0 1px 1px rgba( 0, 0, 0, 0.2 ), 1px 2px 3px 2px rgba(0,0,0,0.3), 0 0 0 #000 );
+}
+
+.button-icon-left {
+	margin-right: 10px;
+}
+
+.button-icon-right {
+	margin-left: 10px;
+}
+
+.button-icon-divider-left,
+.button-icon-divider-right {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	i {
+		position: relative;
+	}
+
+	img {
+		position: relative;
+
+		.button-small & {
+			max-width: 22px;
+		}
+		.button-medium & {
+			max-width: 23px;
+		}
+		.button-large & {
+			max-width: 24px;
+		}
+		.button-xlarge & {
+			max-width: 25px;
+		}
+	}
+}
+
+.button-icon-divider-left {
+	left: 0;
+	border-right: 1px solid;
+}
+
+.button-icon-divider-right {
+	right: 0;
+	border-left: 1px solid;
+}
+
+.fusion-button.button-green,
+.fusion-button.button-green.wpcf7-submit,
+.button.green {
+	.button-colors( #AAD75D, #D1E990, #9dba60, #54770f );
+
+	&:hover,
+	&:focus,
+	&:active {
+		.button-colors( #D1E990, #AAD75D, #9dba60, #54770f );
+
+		.no-cssgradients & {
+			background-color: #AAD75D;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #D1E990;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #54770f );
+	}
+}
+
+.fusion-button.button-darkgreen,
+.fusion-button.button-darkgreen.wpcf7-submit,
+.button.darkgreen {
+	.button-colors( #a8c76a, #d0e0a5, #9dba60, #54770f );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #d0e0a5, #a8c76a, #9dba60, #54770f );
+
+		.no-cssgradients & {
+			background-color: #a8c76a;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #d0e0a5;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #54770f );
+	}
+}
+
+.fusion-button.button-orange,
+.fusion-button.button-orange.wpcf7-submit,
+.button.orange {
+	.button-colors( #f8bf56, #fbdc86, #c0830b, #c0830b );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #fbdc86, #f8bf56, #c0830b, #c0830b );
+
+		.no-cssgradients & {
+			background-color: #f8bf56;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #fbdc86;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #c0830b );
+	}
+}
+
+.fusion-button.button-blue,
+.fusion-button.button-blue.wpcf7-submit,
+.button.blue {
+	.button-colors( #76c7f1, #b5e0f7, #1172c1, #1172c1 );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #b5e0f7, #76c7f1, #1172c1, #1172c1 );
+
+		.no-cssgradients & {
+			background-color: #76c7f1;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #b5e0f7;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #1172c1 );
+	}
+}
+
+.fusion-button.button.button-darkblue,
+.fusion-button.button.button-darkblue.wpcf7-submit,
+.button.darkblue {
+	.button-colors( #2A6496, #428BCA, #072c5e, #072c5e );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #428BCA, #2A6496, #072c5e, #072c5e );
+
+		.no-cssgradients & {
+			background-color: #2A6496;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #428BCA;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #072c5e );
+	}
+}
+
+.fusion-button.button-red,
+.fusion-button.button-red.wpcf7-submit,
+.button.red {
+	.button-colors( #fc7d7d, #fd9c9c, #9d1111, #9d1111 );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #fd9c9c, #fc7d7d, #9d1111, #9d1111 );
+
+		.no-cssgradients & {
+			background-color: #fc7d7d;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #fd9c9c;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #9d1111 );
+	}
+}
+
+.fusion-button.button-darkred,
+.fusion-button.button-darkred.wpcf7-submit,
+.button.darkred {
+	.button-colors( #b01818, #fe2020, #690e0e, #690e0e );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #fe2020, #b01818, #690e0e, #690e0e );
+
+		.no-cssgradients & {
+			background-color: #b01818;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #fe2020;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #690e0e );
+	}
+}
+
+.fusion-button.button-pink,
+.fusion-button.button-pink.wpcf7-submit,
+.button.pink {
+	.button-colors( #fc84c8, #fda1d5, #a31366, #a31366 );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #fda1d5, #fc84c8, #a31366, #a31366 );
+
+		.no-cssgradients & {
+			background-color: #fc84c8;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #fda1d5;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #a31366 );
+	}
+}
+
+.fusion-button.button-lightgray,
+.fusion-button.button-lightgray.wpcf7-submit,
+.button.lightgray {
+	.button-colors( #f0f0f0, #fbfbfb, #ababab, #ababab );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #fbfbfb, #f0f0f0, #ababab, #ababab );
+
+		.no-cssgradients & {
+			background-color: #f0f0f0;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #fbfbfb;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #ababab );
+	}
+}
+
+.fusion-button.button-darkgray,
+.fusion-button.button-darkgray.wpcf7-submit,
+.button.darkgray {
+	.button-colors( #9e9e9e, #c0c0c0, #434c50, #434c50 );
+
+	&:hover,
+	&:focus,
+	&:active{
+		.button-colors( #c0c0c0, #9e9e9e, #434c50, #434c50 );
+
+		.no-cssgradients & {
+			background-color: #9e9e9e;
+		}
+	}
+
+	.no-cssgradients & {
+		background-color: #c0c0c0;
+	}
+
+	&.button-3d {
+		.button-3d-effect( #fff, #434c50 );
+	}
+}

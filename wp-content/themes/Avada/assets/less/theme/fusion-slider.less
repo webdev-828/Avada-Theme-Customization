@@ -1,0 +1,203 @@
+/* =================================================================================================
+Table of Contents
+----------------------------------------------------------------------------------------------------
+  01 Fusion Slider Layout Styles
+================================================================================================= */
+
+
+/* Fusion Slider Layout Styles
+================================================================================================= */
+
+.fusion-slider-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.tfs-slider {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  left: 0;
+  &.fixed-width-slider .slide-content-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  li.flex-active-slide {
+    position: relative;
+  }
+  .slides li {
+    -webkit-backface-visibility: visible;
+  }
+  .slide-content-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 0;
+    z-index: 5;
+    .transform(translateY(-50%));
+    .slide-content {
+      opacity: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      max-width: 940px;
+    }
+    .heading, .caption {
+      display: block;
+    }
+    h2, h3 {
+      margin: 0;
+      font-weight: normal;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      padding: 0
+    }
+
+    .with-bg {
+    	.fusion-title-sc-wrapper {
+    		padding: 3px 15px;
+    	}
+    }
+    .fusion-title-sc-wrapper {
+    	display: inline-block;
+    	padding: 0;
+    }
+    .fusion-block-element {
+    	display: block;
+    }
+    .heading {
+    	margin: 0 0 10px 0;
+    }
+    h2 {
+      font-size: 60px;
+      line-height: 80px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 38px;
+    }
+    .fusion-sep-none {
+    	display: inline-block;
+
+    	h2, h3 {
+    	    display: inline-block;
+		}
+    }
+    .fusion-title-size-two {
+    	margin: 0;
+
+    	h2 {
+    		margin: 0;
+    	}
+    }
+    .fusion-title-size-three {
+    	margin: 0;
+
+    	h3 {
+    		margin: 0;
+    	}
+    }
+    .fusion-title .title-sep,
+    .fusion-title.sep-underline {
+    	border-color: #fff;
+    }
+    .buttons {
+      margin-top: 3.25%;
+      overflow: visible;
+    }
+    .buttons a {
+      -webkit-backface-visibility: hidden;
+    }
+    .tfs-button-1, .tfs-button-2 {
+      display: inline-block;
+    }
+    .tfs-button-2 {
+      margin-left: 16px;
+    }
+
+  }
+  .slide-content-center {
+    text-align: center;
+  }
+  .slide-content-right {
+    text-align: right;
+  }
+  .ua-mobile & .self-hosted-video-bg {
+    display: none;
+  }
+  .background {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+  }
+  .background-image {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    position: static;
+    top: 0%;
+    z-index: 1;
+    backface-visibility: hidden;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+  }
+  .mobile_video_image {
+    display: none;
+  }
+  .ua-mobile & .mobile_video_image {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 4;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+  }
+  .overlay-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 5;
+  }
+  .flex-direction-nav a {
+    top: 50%;
+    margin-top: -31px;
+  }
+
+  .background {
+    iframe {
+      position: relative;
+      z-index: 1 !important;
+      margin: 0 !important;
+    }
+  }
+}

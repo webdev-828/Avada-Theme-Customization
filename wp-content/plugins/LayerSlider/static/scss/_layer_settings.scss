@@ -1,0 +1,253 @@
+.ls-sublayers .dashicons-menu {
+	margin-left: 5px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	color: #666;
+	-webkit-font-smoothing: none;
+	cursor: pointer;
+}
+
+.ls-sublayers .ls-highlight {
+	opacity: 1;
+	&.active {
+		opacity: 0.5;
+	}
+}
+
+
+.ls-sublayer-controls {
+	display: inline-block;
+	left: 0;
+	height: 34px;
+	vertical-align: top;
+
+	.dashicons {
+		font-size: 17px;
+		line-height: 34px;
+		-webkit-font-smoothing: antialiased;
+		cursor: pointer;
+	}
+
+	.disabled {
+		opacity: .3 !important;
+	}
+}
+
+.ls-sublayer-thumb {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 75px;
+	width: 34px;
+	height: 34px;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	overflow: hidden;
+	font-size: 28px;
+	line-height: 32px;
+	background: #eee;
+	text-align: center;
+}
+
+.ls-sublayer-thumb:before {
+	position: relative;
+	top: 3px;
+}
+
+.ls-sublayer-thumb img {
+	max-width: 34px;
+	max-height: 34px;
+}
+
+.ls-sublayer-thumb.dashicons-admin-post {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+tr.active .ls-sublayer-controls {
+	display: inline;
+}
+
+.ls-sublayer-basic {
+
+	// List item
+	.ls-layer-kind {
+		width: 690px;
+		margin: 0 auto;
+		text-align: center;
+
+		ul {
+			display: inline-block;
+			border: 1px solid #dedede;
+			background: #f3f3f3;
+			border-radius: 5px;
+			font-size: 0px;
+
+			// Layer kind
+			li {
+				display: inline-block;
+				margin: 0;
+				padding: 5px 10px 5px 0px;
+				border-left: 1px solid white;
+				border-right: 1px solid #dedede;
+				cursor: pointer;
+				color: #555;
+				font-size: 12px;
+				line-height: 20px;
+
+				&.active {
+					background: #e0e0e0;
+					border-left: 1px solid transparent;
+					text-shadow: 0px 0px 1px white;
+					color: #222;
+				}
+
+				&:hover {
+					background: #e9e9e9;
+				}
+
+				&:first-child {
+					border-left: 0;
+				}
+
+				&:last-child {
+					border-right: 0;
+				}
+
+				// Icons
+				span {
+					margin: 0 10px;
+				}
+			}
+		}
+	}
+}
+
+
+// Element type
+.ls-sublayer-element {
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.ls-sublayer-element li {
+	display: inline-block;
+	width: 60px;
+	height: 26px;
+	color: #333;
+	text-align: center;
+	font: normal normal normal 11px/16px Arial, serif;
+	border-radius: 5px;
+	border: 1px solid #DEDEDE;
+	cursor: pointer;
+	line-height: 26px;
+}
+
+.ls-sublayer-element li.active {
+	border: 1px solid #ccc;
+	background: #E0E0E0;
+}
+
+
+
+// TEXT / HTML content
+// ===========================================
+.ls-html-code {
+	padding-bottom: 10px;
+
+	p {
+		margin: 10px 0;
+		color: #666;
+		button {
+			margin-right: 10px !important;
+		}
+	}
+}
+
+.ls-insert-media {
+	padding-left: 8px !important;
+	span {
+		margin-right: 4px;
+		color: #666;
+		font-size: 16px;
+		line-height: 25px;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+.ls-post-section p {
+	width: 600px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+}
+
+.ls-posts-configured {
+	position: relative;
+
+	input {
+		width: 70px;
+		margin-right: 10px;
+	}
+}
+
+button.ls-configure-posts,
+button.ls-layer-duplicate {
+	width: auto !important;
+	padding: 0  10px 1px 10px !important;
+	margin-top: 15px !important;
+	span {
+		margin-right: 6px;
+		color: #666;
+		font-size: 16px;
+		line-height: 25px;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+button.ls-layer-duplicate {
+	margin-left: 15px !important;
+}
+
+button.ls-layer-duplicate:focus {
+	outline: none !important;
+}
+
+// Transitions
+tr.ls-separator td {
+	height: 8px !important;
+	padding: 0 !important;
+	background: #dddddd;
+	background: -moz-linear-gradient(top, #dddddd 0%, #f4f4f4 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(100%,#f4f4f4)) !important;
+	background: -webkit-linear-gradient(top, #dddddd 0%,#f4f4f4 100%) !important;
+	background: -o-linear-gradient(top, #dddddd 0%,#f4f4f4 100%) !important;
+	background: -ms-linear-gradient(top, #dddddd 0%,#f4f4f4 100%) !important;
+	background: linear-gradient(to bottom, #dddddd 0%,#f4f4f4 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f4f4f4',GradientType=0 ) !important;
+}
+
+.ls-sublayer-options .right {
+	color: #888 !important;
+}
+
+.ls-sublayer-options td.center {
+	text-align: center;
+	input {
+		width: 60%;
+		margin-top: 10px;
+	}
+}
+
+.ls-sublayer-link div {
+	width: 60%;
+	margin: 9px auto;
+}
+
+.ls-sublayer-link select {
+	width: 200px;
+}
+
+.ls-sublayer-link .ls-slide-link {
+	padding: 0 10px 30px 10px !important;
+}

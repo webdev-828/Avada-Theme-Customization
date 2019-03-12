@@ -1,0 +1,120 @@
+<wpml-config>
+    <admin-texts>
+        <key name="avada_theme_options">
+            <key name="google_analytics" />
+            <key name="space_head" />
+            <key name="space_body" />
+            <key name="header_number" />
+            <key name="header_email" />
+            <key name="header_tagline" />
+            <key name="breacrumb_prefix" />
+            <key name="footer_text" />
+            <key name="blog_title" />
+            <key name="portfolio_slug" />
+            <key name="gmap_address" />
+            <key name="email_address" />
+            <key name="blog_subtitle" />
+            <key name="date_format" />
+            <key name="map_infobox_content" />
+            <key name="sharing_social_tagline" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">themefusion_elastic</custom-type>
+        <custom-type translate="1">slide</custom-type>
+        <custom-type translate="1">layerslider</custom-type>
+        <custom-type translate="1">revslider</custom-type>
+        <custom-type translate="1">avada_faq</custom-type>
+        <custom-type translate="1">avada_portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">faq_category</taxonomy>
+        <taxonomy translate="1">portfolio_skills</taxonomy>
+        <taxonomy translate="1">portfolio_tags</taxonomy>
+        <taxonomy translate="1">themefusion_es_groups</taxonomy>
+        <taxonomy translate="1">slide-page</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="translate">avada_post_views_count</custom-field>
+        <custom-field action="translate">pyre_address</custom-field>
+        <custom-field action="translate">pyre_caption_1</custom-field>
+        <custom-field action="translate">pyre_caption_2</custom-field>
+        <custom-field action="translate">pyre_copy_url</custom-field>
+        <custom-field action="translate">pyre_copy_url_text</custom-field>
+        <custom-field action="translate">pyre_displayed_menu</custom-field>
+        <custom-field action="translate">pyre_display_copyright</custom-field>
+        <custom-field action="translate">pyre_display_footer</custom-field>
+        <custom-field action="translate">pyre_display_header</custom-field>
+        <custom-field action="translate">pyre_elasticslider</custom-field>
+        <custom-field action="translate">pyre_email</custom-field>
+        <custom-field action="translate">pyre_fallback</custom-field>
+        <custom-field action="translate">pyre_fimg_height</custom-field>
+        <custom-field action="translate">pyre_fimg_width</custom-field>
+        <custom-field action="translate">pyre_flexslider</custom-field>
+        <custom-field action="translate">pyre_full_width</custom-field>
+        <custom-field action="translate">pyre_gmap</custom-field>
+        <custom-field action="translate">pyre_header_bg</custom-field>
+        <custom-field action="translate">pyre_header_bg_color</custom-field>
+        <custom-field action="translate">pyre_header_bg_full</custom-field>
+        <custom-field action="translate">pyre_header_bg_repeat</custom-field>
+        <custom-field action="translate">pyre_hundredp_padding</custom-field>
+        <custom-field action="translate">pyre_image_rollover_icons</custom-field>
+        <custom-field action="translate">pyre_link_icon_target</custom-field>
+        <custom-field action="translate">pyre_link_icon_url</custom-field>
+        <custom-field action="translate">pyre_main_bottom_padding</custom-field>
+        <custom-field action="translate">pyre_main_top_padding</custom-field>
+        <custom-field action="translate">pyre_overall_score</custom-field>
+        <custom-field action="translate">pyre_page_bg</custom-field>
+        <custom-field action="translate">pyre_page_bg_color</custom-field>
+        <custom-field action="translate">pyre_page_bg_full</custom-field>
+        <custom-field action="translate">pyre_page_bg_layout</custom-field>
+        <custom-field action="translate">pyre_page_bg_repeat</custom-field>
+        <custom-field action="translate">pyre_page_title</custom-field>
+        <custom-field action="translate">pyre_page_title_bar_bg</custom-field>
+        <custom-field action="translate">pyre_page_title_bar_bg_color</custom-field>
+        <custom-field action="translate">pyre_page_title_bar_bg_full</custom-field>
+        <custom-field action="translate">pyre_page_title_bar_bg_retina</custom-field>
+        <custom-field action="translate">pyre_page_title_bg_parallax</custom-field>
+        <custom-field action="translate">pyre_page_title_custom_subheader</custom-field>
+        <custom-field action="translate">pyre_page_title_custom_text</custom-field>
+		<custom-field action="translate">page_title_text_size</custom-field>
+        <custom-field action="translate">page_title_text_alignment</custom-field>
+		<custom-field action="translate">page_title_custom_subheader_text_size</custom-field>
+		<custom-field action="translate">page_title_breadcrumbs_search_bar</custom-field>
+        <custom-field action="translate">pyre_page_title_text</custom-field>
+        <custom-field action="translate">pyre_phone</custom-field>
+        <custom-field action="translate">pyre_portfolio_category</custom-field>
+        <custom-field action="translate">pyre_portfolio_excerpt</custom-field>
+        <custom-field action="translate">pyre_portfolio_filters</custom-field>
+        <custom-field action="translate">pyre_portfolio_full_width</custom-field>
+        <custom-field action="translate">pyre_portfolio_sidebar_position</custom-field>
+        <custom-field action="translate">pyre_portfolio_width_100</custom-field>
+        <custom-field action="translate">pyre_project_desc_title</custom-field>
+        <custom-field action="translate">pyre_project_details</custom-field>
+        <custom-field action="translate">pyre_project_url</custom-field>
+        <custom-field action="translate">pyre_project_url_text</custom-field>
+        <custom-field action="translate">pyre_related_posts</custom-field>
+        <custom-field action="translate">pyre_revslider</custom-field>
+        <custom-field action="translate">pyre_show_first_featured_image</custom-field>
+        <custom-field action="translate">pyre_sidebar</custom-field>
+        <custom-field action="translate">pyre_sidebar_position</custom-field>
+        <custom-field action="translate">pyre_slider</custom-field>
+        <custom-field action="translate">pyre_slider_position</custom-field>
+        <custom-field action="translate">pyre_slider_type</custom-field>
+        <custom-field action="translate">pyre_transparent_header</custom-field>
+        <custom-field action="translate">pyre_video</custom-field>
+        <custom-field action="translate">pyre_video_url</custom-field>
+        <custom-field action="translate">pyre_wide_page_bg</custom-field>
+        <custom-field action="translate">pyre_wide_page_bg_color</custom-field>
+        <custom-field action="translate">pyre_wide_page_bg_full</custom-field>
+        <custom-field action="translate">pyre_wide_page_bg_repeat</custom-field>
+        <custom-field action="translate">pyre_width</custom-field>
+        <custom-field action="translate">pyre_wooslider</custom-field>
+        <custom-field action="translate">sbg_selected_sidebar</custom-field>
+        <custom-field action="translate">sbg_selected_sidebar_replacement</custom-field>
+        <custom-field action="translate">sbg_selected_sidebar_2</custom-field>
+        <custom-field action="translate">sbg_selected_sidebar_2_replacement</custom-field>
+        <custom-field action="translate">slide_template</custom-field>
+    </custom-fields>
+</wpml-config>

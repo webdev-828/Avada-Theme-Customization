@@ -1,0 +1,170 @@
+@testimonial-bg-color: #F6F6F6;
+
+.fusion-testimonials {
+	.review {
+		display: none;
+	}
+
+	blockquote {
+		margin: 0;
+		padding: 0;
+
+		q {
+			font-style: italic;
+
+			&:before,
+			&:after {
+				content: "";
+			}
+		}
+	}
+	
+		.doe {
+			position: relative;
+			text-align: center;
+
+			&:before {
+				line-height: 40px;
+				font-family: @icon-font;
+				font-size: 28px;
+			}
+		}
+
+		.female {
+			.doe {	
+				&:before {
+					content: "\e61b";
+				}
+			}
+		}
+
+		.male {
+			.doe {			
+				&:before {
+					content: "\e61a";
+				}			
+			}
+		}	
+	
+	.testimonial-pagination {
+		margin-top: 25px;
+		text-align: center;
+		
+		a {
+			display: inline-block;
+			margin-right: 10px;
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #000;
+		
+			
+			&:hover,
+			&.activeSlide {
+				background-color: #000;
+			}
+		}
+	}
+
+	&.classic {
+		blockquote {
+			margin-bottom: 0;
+			border: none;
+			background-color: @testimonial-bg-color;
+
+			q {
+				display: block;
+				padding: 25px;
+				line-height: normal;
+			}
+		}
+
+		.author {
+			position: relative;
+			padding: 12px 0 0 2px;
+
+			&:after {
+				position: absolute;			
+				left: 35px;
+				top: 0;
+				content: " ";
+				height: 0;
+				width: 0;
+				pointer-events: none;
+				border: medium solid transparent;
+				border-top-color: @testimonial-bg-color;
+				border-width: 10px;		
+			}		
+
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+
+		.no-avatar {
+			.author {
+				padding-left: 0;
+			}
+		}
+		
+		.doe {
+			&:before {
+				line-height: 40px;
+				font-size: 28px;
+			}
+		}		
+
+		.company-name {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.testimonial-thumbnail {
+			display: table-cell;
+			vertical-align: middle;
+			padding-right: 30px;
+			height: 40px;
+		}
+
+		.testimonial-image {
+			max-width: 40px;
+		}
+	}
+	
+	&.clean {
+		.testimonial-thumbnail {
+			margin: 0 auto 25px auto;
+			width: 150px;
+			text-align: center;
+		}
+		
+		.doe {
+			&:before {
+				line-height: 100px;
+				font-size: 90px;
+			}
+		}		
+		
+		blockquote {
+			border: none;
+			background-color: none;
+
+			q {
+				display: block;
+				padding: 25px;
+				background-color: none;
+				line-height: 30px;
+				font-size: 18px;
+				text-align: center;
+			}
+		}
+		
+		.author {
+			margin-top: 25px;
+			font-size: 18px;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,120 @@
+/* =================================================================================================
+Table of Contents
+----------------------------------------------------------------------------------------------------
+	01 Page Title Bar
+
+================================================================================================= */
+
+
+/* Page Title Bar
+================================================================================================= */
+
+.fusion-page-title-bar {
+	clear: both;
+	padding: 0 10px;
+	height: 87px;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #f6f6f6;
+	border-top: 1px solid #d2d3d4;
+	border-bottom: 1px solid #d2d3d4;
+
+	h1,
+	h3 {
+		margin: 0;
+		padding: 0;
+		line-height: 26px;
+		font-weight: normal;
+		font-size: 14px;
+		color: #343333;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+}
+
+.fusion-page-title-row {
+	overflow: hidden;
+	margin: 0 auto;
+	height: 100%;
+	max-width: 940px;
+}
+
+.fusion-page-title-wrapper {
+	display: table;
+	z-index: 1;
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+}
+.fusion-page-title-captions {
+	display: table-cell;
+	vertical-align: middle;
+	width: 45%;
+
+	.page-title-bar-search & {
+		width: auto;
+	}
+}
+
+.fusion-page-title-secondary {
+	display: table-cell;
+	vertical-align: middle;
+	width: 45%;
+	text-align: right;
+
+	.searchform {
+		display: inline-block;
+		width: 100%;
+		max-width: 250px;
+	}
+}
+
+.fusion-breadcrumbs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	span {
+		display: inline-block;
+	}
+
+}
+
+.fusion-page-title-bar-center {
+	.fusion-page-title-captions {
+		text-align: center;
+		width: auto;
+	}
+
+	.fusion-page-title-secondary  {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.searchform {
+		margin-top: 10px;
+	}
+}
+.fusion-page-title-bar-right {
+	.fusion-page-title-row {
+		direction: rtl;
+	}
+
+	.fusion-page-title-captions,
+	.fusion-page-title-secondary  {
+		direction: ltr;
+	}
+
+	.fusion-page-title-captions {
+		text-align: right;
+	}
+
+	.fusion-page-title-secondary  {
+		text-align: left;
+	}
+}

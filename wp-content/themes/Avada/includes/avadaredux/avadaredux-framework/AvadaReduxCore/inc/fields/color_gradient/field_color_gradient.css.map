@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,8CAAe,CACX,OAAO,CAAE,YAAY,CAEzB,wCAAS,CACL,YAAY,CAAE,IAAI,CAI1B,oCAAqC,CAE7B,8CAAe,CACX,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,iBAAiB",
+"sources": ["field_color_gradient.scss"],
+"names": [],
+"file": "field_color_gradient.css"
+}

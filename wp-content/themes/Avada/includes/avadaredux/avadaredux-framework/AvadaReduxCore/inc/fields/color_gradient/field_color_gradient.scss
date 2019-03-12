@@ -1,0 +1,17 @@
+.avadaredux-container-color_gradient {
+    .colorGradient {
+        display: inline-block;
+    }
+    .toLabel {
+        padding-left: 18px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .avadaredux-container-color_gradient {
+        .colorGradient {
+            display: block;
+            text-align: center !important;
+        }
+    }
+}

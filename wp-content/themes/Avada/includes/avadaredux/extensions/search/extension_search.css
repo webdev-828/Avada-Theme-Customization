@@ -1,0 +1,42 @@
+.avadaredux_field_search {
+  position: absolute;
+  width: 250px !important;
+  right: 30px;
+  padding: 4px 7px;
+}
+.avadaredux-has-sections .avadaredux_field_search {
+  right: 10px;
+}
+.avadaredux-main.avadaredux-search .avadaredux-section-field,
+.avadaredux-main.avadaredux-search .avadaredux-info-field,
+.avadaredux-main.avadaredux-search .avadaredux-notice-field,
+.avadaredux-main.avadaredux-search .avadaredux-container-group,
+.avadaredux-main.avadaredux-search .avadaredux-container-raw,
+.avadaredux-main.avadaredux-search .avadaredux-section-desc,
+.avadaredux-main.avadaredux-search .avadaredux-group-tab h3,
+.avadaredux-main.avadaredux-search .hr,
+.avadaredux-main.avadaredux-search .avadaredux-field-info,
+.avadaredux-main.avadaredux-search tr {
+  display: none;
+}
+.avadaredux-main.avadaredux-search #import_export_default_section_group,
+.avadaredux-main.avadaredux-search #dev_mode_default_section_group {
+  display: none !important;
+}
+.avadaredux-main.avadaredux-search .avadaredux-group-tab {
+  margin-bottom: 0;
+}
+.avadaredux-main.avadaredux-search .avadaredux-group-tab .form-table-section-indented {
+  margin-left: 0 !important;
+  width: 100%;
+}
+.avadaredux-main.avadaredux-search .avadaredux-group-tab .form-table-section-indented .avadaredux-group-tab .form-table-section tr:first-of-type th:first-of-type {
+  padding: inherit !important;
+}
+.avadaredux-main.avadaredux-search .avadaredux-group-tab .form-table-section-indented .avadaredux-group-tab h3 {
+  margin-top: inherit !important;
+}
+.avada-avadaredux-search .avadaredux-accordian-wrap{
+	border:none !important;
+	padding:0px !important;
+}

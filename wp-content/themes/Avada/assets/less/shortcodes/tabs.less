@@ -1,0 +1,327 @@
+@tabs-background-color: #F1F2F2;
+@tabs-border-color: #F1F2F2;
+@tabs-border: 1px solid @tabs-border-color;
+
+.fusion-tabs {
+	margin-bottom: 50px;
+	
+	.nav {
+		display: none;
+	}
+
+	.fusion-mobile-tab-nav {
+		display: block;
+	}
+	
+	&.clean {
+		.tab-pane {
+			margin: 20px 0;
+		}
+	}
+	
+	.nav-tabs {
+		display: block;
+		list-style: none outside none;
+		margin: 0;
+		padding: 0;
+		border: @tabs-border;
+		border-bottom: none;		
+		background-color: #fff;
+		
+		&:before, 
+		&:after {
+			content: " ";
+			display: table;
+		}
+		
+		&:after {
+			clear: both;
+		}
+	
+		&.nav-justified {
+			width: 100%;		
+			border-bottom: 0 none;
+		}
+
+		li {
+			display: block;
+			position: relative;
+			float: none;
+			text-align:center;
+			
+			.fusion-tab-heading {
+				margin: 0;
+			}
+			
+			.tab-link {
+				display: block;
+				position: relative;
+				margin: 0;
+				padding: 11px 0;
+				outline: 0;
+				line-height: normal;
+				border: none;
+				border-top: 3px solid @tabs-background-color;
+				background-color: @tabs-background-color;
+				color: #747474;
+				cursor: pointer;
+				-webkit-transition: all .2s;
+				-moz-transition: all .2s;
+				-ms-transition: all .2s;	
+				-o-transition: all .2s;
+				transition: all .2s;				
+
+				&:hover,
+				&:focus {
+					border-top-color: #fff;
+					background-color: #fff;
+				}
+				
+				.fa {
+					float: none;
+					color: inherit;
+				}
+			}
+		}
+	
+		> .active {
+			> .tab-link {
+				border: none;
+				border-top: 3px solid @primary-color;
+				background-color: #fff;
+				cursor: pointer;
+				
+				&:hover,
+				&:focus {		
+					border-top: 3px solid @primary-color;
+				}
+			}
+		}
+	}
+	
+	.tab-content {
+		> .active {
+			display: block;
+		}
+	}
+	
+	.tab-pane {
+		display: none;
+		padding: 15px;
+		max-width: 100%;
+		border: @tabs-border;
+		border-top: none;
+	}
+	
+	&.nav-not-justified {
+		.nav-tabs {
+			.tab-link {
+				padding: 11px 15px;
+			}
+		}
+	}
+	
+	&.clean {			
+		.nav-tabs {
+			background: none;
+			border: none;
+
+			li {
+				margin-bottom: 10px;
+				
+				.tab-link {			
+					padding: 14px 15px;
+					border: 1px solid;
+					
+					&:hover,
+					&:focus {
+						border: 1px solid;
+					}
+				}				
+			}
+		}
+
+		.tab-content {
+			margin-top: 20px;
+
+			.tab-pane {
+				padding: 0;		
+				background: transparent;
+				border: none;
+			}
+		}
+	}	
+}
+
+@media (min-width: 768px) {
+
+	.fusion-tabs {
+		.nav {
+			display: block;
+		}
+	
+		.fusion-mobile-tab-nav {
+			display: none;
+		}
+		
+		&.clean {
+			.tab-pane {
+				margin: 0;
+			}
+		}
+	
+		.nav-tabs {
+			display: inline-block;
+			vertical-align: middle;
+		
+			&.nav-justified {
+
+				> li {
+					display: table-cell;
+					width: 1%;
+				}		
+			}
+			
+			li {
+				.tab-link {
+					margin-right: 1px;
+				}
+				
+				&:last-child {
+					.tab-link {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		
+		&.horizontal-tabs {
+			.nav-tabs {
+				margin: 0 0 -1px 0;
+			}
+			
+			.nav {
+				border-bottom: @tabs-border;
+			}
+			
+			&.clean {
+				.nav {
+					border: none;
+					text-align: center;
+				}
+				
+				.nav-tabs {
+					border: none;
+					
+					li {
+						margin-bottom: 0;
+						
+						.tab-link {
+							margin-right: -1px;
+						}
+					}
+				}
+				
+				.tab-content {
+					margin-top: 40px;
+				}				
+			}
+		}
+		
+		&.nav-not-justified {
+			border: none;
+
+			.nav-tabs {
+		
+				li {
+					display: inline-block;
+				}
+			}
+			
+			&.clean {
+				.nav-tabs {
+					li {
+						.tab-link {
+							padding: 14px 55px;
+						}
+					}
+				}
+			}
+		}
+
+		&.vertical-tabs {
+			border: none;
+			clear: both;
+			.clearfix();
+
+			.nav-tabs {
+				position: relative;
+				left: 1px;
+				float: left;
+				width: 15.5%;
+				border: @tabs-border;
+				border-right: none;
+
+				> li {
+					
+					.tab-link {
+						margin-right: 0;
+						margin-bottom: 1px;
+						padding: 8px 10px;
+						border-top: none;
+						text-align: left;
+					}
+					
+					&:last-child {
+						.tab-link {
+							margin-bottom: 0;
+						}
+					}					
+					
+					&.active {
+						> .tab-link {
+							border-bottom: none;
+							border-left: 3px solid @primary-color;
+							border-top: none;
+							cursor: pointer;
+						}
+
+					}								
+				}
+			}
+
+			.tab-content {
+				float: left;
+				width: 84.5%;
+			}
+
+			.tab-pane {
+				float: left;
+				padding: 30px;
+				border: @tabs-border;
+			}
+			
+			&.clean {
+				.nav-tabs {
+					width: 25%;
+					background-color: transparent;
+					border: none;
+					
+					li {
+						.tab-link {
+							margin: 0;
+							padding: 10px 15px;
+							border: 1px solid;							
+						}
+					}
+				}
+				
+				.tab-content {
+					margin: 0;
+					padding-left: 40px;
+					width: 75%;
+				}				
+			}
+		}
+	}
+}

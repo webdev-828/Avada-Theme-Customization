@@ -1,0 +1,55 @@
+.fusion-mega-menu-options {
+	margin-top: 10px;
+}
+
+.fusion-menu-style,
+.field-megamenu-status,
+.field-megamenu-width,
+.field-megamenu-columns,
+.field-megamenu-columnwidth,
+.field-megamenu-title,
+.field-megamenu-widgetarea,
+.fusion-megamenu-upload-thumbnail.button-primary,
+.field-megamenu-thumbnail,
+.fusion-megamenu-thumbnail-image {
+	display: none;
+}
+
+.menu-item-depth-0 .fusion-menu-style,
+.menu-item-depth-0 .field-megamenu-status,
+.menu-item-depth-0.fusion-megamenu .field-megamenu-width,
+.menu-item-depth-0.fusion-megamenu .field-megamenu-columns,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-columnwidth,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-title,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-widgetarea,
+.menu-item-depth-2.fusion-megamenu .field-megamenu-widgetarea,
+.fusion-megamenu .field-megamenu-thumbnail {
+	display: block;
+}
+
+.menu-item-depth-1.fusion-megamenu.fusion-megamenu-fullwidth .field-megamenu-columnwidth {
+	display: none;
+}
+
+.fusion-megamenu .fusion-megamenu-upload-thumbnail {
+	display: inline-block;
+}
+
+.fusion-megamenu-thumbnail-image {
+	max-width: 300px;
+}
+
+.menu-item-depth-0 .fusion-megamenu-upload-thumbnail,
+.menu-item-depth-1 .fusion-megamenu-upload-thumbnail,
+.menu-item-depth-2 .fusion-megamenu-upload-thumbnail {
+	margin-top: 0 !important;
+}
+
+.fusion-megamenu-upload-thumbnail {
+	margin-top: 0.6em !important;
+}
+.menu-item-settings:after{
+	content: "";
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ls" horiz-adv-x="1000" >
+<font-face font-family="ls" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ok-1" unicode="&#xe801;" d="m875 588l-535-600l-340 338l123 124l196-195l420 457z" horiz-adv-x="875" />
+<glyph glyph-name="cancel-circle" unicode="&#xe800;" d="m406 755c227 0 405-180 405-404c0-226-178-406-405-406c-225 0-406 180-406 406c0 224 181 404 406 404z m84-404l125 125l-85 84l-124-125l-126 126l-84-85l127-125l-127-125l84-85l126 127l124-125l85 83z" horiz-adv-x="811" />
+</font>
+</defs>
+</svg>

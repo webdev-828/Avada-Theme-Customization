@@ -1,0 +1,363 @@
+/* =================================================================================================
+Table of Contents
+----------------------------------------------------------------------------------------------------
+  01 Blog Layout Styles
+================================================================================================= */
+
+
+/* Blog Layout Styles
+================================================================================================= */
+/* General blog elements, only used in blog */
+.fusion-post-slideshow {
+  .image {
+    margin-bottom: 0;
+  }
+
+  // Fix for #1039
+  .fusion-image-size-fixed {
+    display: block;
+  }
+}
+
+.fusion-flexslider.fusion-post-slideshow {
+  overflow: visible;
+}
+
+.fusion-meta-info {
+  clear: both;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 5px 0;
+  border-top: 1px solid #e7e6e6;
+  border-bottom: 1px solid #e7e6e6;
+  font-size: 12px;
+
+  .fusion-alignleft {
+    width: 80%;
+  }
+}
+
+.fusion-single-line-meta {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.fusion-content-sep {
+  margin-top: 20px;
+  height: 6px;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* Alternate layout elements */
+.fusion-date-and-formats {
+  float: left;
+  margin-right: 17px;
+  width: 82px;
+  text-align: center;
+
+  .fusion-date-box {
+    padding: 8px 0 5px 0px;
+    color: #fff;
+  }
+
+  .fusion-date {
+    display: block;
+    line-height: 29px;
+    font-size: 29px;
+    font-weight: bold;
+  }
+
+  .fusion-format-box {
+    margin-top: 3px;
+    background-color: #eef0f2;
+
+    i {
+      display: block;
+      line-height: 55px;
+      font-size: 30px;
+    }
+  }
+}
+
+/* Timeline elements */
+.fusion-timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -1px;
+  height: 100%;
+  border-left: 1px solid #efeeee;
+  border-right: 1px solid #ebeaea;
+}
+
+.fusion-timeline-icon {
+  margin: 0 auto -20px;
+  max-width: 1000px;
+  font-size: 46px;
+  color: #ebeaea;
+  text-align: center;
+
+  .fusionicon-bubbles {
+    cursor: pointer;
+  }
+}
+
+.fusion-timeline-circle {
+  position: absolute;
+  left: 50%;
+  margin: 10px 0 0 -5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #efeeee;
+}
+
+.fusion-timeline-arrow {
+  position: absolute;
+
+  &:before {
+    color: #E9EAEE;
+    font-family: @icon-font;
+    font-size: 28px;
+    position: absolute;
+    top: 0px;
+	line-height:30px;
+  }
+}
+
+/* General blog elements that are also used outside blog */
+.fusion-blog-archive {
+  .entry-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+}
+
+/* Mixed layout styles */
+.fusion-blog-layout-large,
+.fusion-blog-layout-medium {
+  .entry-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.single-post,
+.single-wpfc_sermon,
+.fusion-blog-layout-large,
+.fusion-blog-layout-large-alternate {
+  .fusion-post-slideshow {
+    margin-bottom: 30px;
+  }
+}
+
+.fusion-blog-layout-large-alternate,
+.fusion-blog-layout-medium-alternate {
+  .entry-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .fusion-post-content-container {
+    margin-top: 20px;
+  }
+
+  .fusion-meta-info {
+    margin-top: 0;
+    border-top: 0;
+  }
+}
+
+.fusion-blog-layout-medium,
+.fusion-blog-layout-medium-alternate {
+  .fusion-post-slideshow {
+    float: left;
+    margin-right: 25px;
+    width: 320px;
+
+  }
+}
+
+.fusion-blog-layout-grid,
+.fusion-blog-layout-timeline {
+  .fusion-post-slideshow {
+    margin-bottom: 0;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .fusion-post-content-wrapper {
+    padding: 30px 25px 0px 25px;
+  }
+
+  .fusion-post-content-container {
+    margin-top: 20px;
+  }
+
+  .fusion-meta-info {
+    margin-bottom: 20px;
+    border: 0;
+
+    .fusion-alignleft {
+      width: 50%;
+    }
+  }
+
+  .fusion-password {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/* Large alternate layout */
+.fusion-blog-layout-large-alternate {
+  .fusion-post-content {
+    margin-left: 110px;
+  }
+}
+
+/* Medium alternate layout */
+.fusion-blog-layout-medium-alternate {
+  .fusion-post-slideshow {
+    display: none;
+  }
+
+  .fusion-post-content {
+    margin-left: 99px;
+  }
+
+  .has-post-thumbnail {
+    .fusion-post-slideshow {
+      display: block;
+      margin-right: 17px;
+    }
+
+    .fusion-post-content {
+      margin-left: 436px;
+    }
+  }
+
+  &.fusion-blog-no-images {
+    .fusion-post-content {
+      margin-left: 99px;
+    }
+  }
+
+}
+
+/* Grid layout */
+.fusion-blog-layout-grid {
+  .fusion-post-grid {
+    margin-bottom: 0;
+  }
+
+  .fusion-post-wrapper {
+    border: 1px solid #EAEAEA;
+    border-bottom-width: 3px;
+  }
+
+  &.fusion-blog-layout-grid-2 .post {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+
+  &.fusion-blog-layout-grid-3 .post {
+    width: 33%;
+    display: inline-block;
+    float: left;
+  }
+
+  &.fusion-blog-layout-grid-4 .post {
+    width: 25%;
+    display: inline-block;
+    float: left;
+  }
+
+  &.fusion-blog-layout-grid-5 .post {
+    width: 20%;
+    display: inline-block;
+    float: left;
+  }
+
+  &.fusion-blog-layout-grid-6 .post {
+    width: 16.66%;
+    display: inline-block;
+    float: left;
+  }
+
+  .fusion-post-content, .post-content {
+    word-wrap: break-word;
+  }
+}
+
+/* Timeline layout */
+.fusion-blog-layout-timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 1000px;
+
+  .fusion-post-timeline {
+    position: static;
+    margin-bottom: 40px;
+    border: 1px solid #EAEAEA;
+    border-bottom-width: 3px;
+  }
+
+  .fusion-left-column {
+    float: left;
+    clear: left;
+    width: 40%;
+  }
+
+  .fusion-right-column {
+    float: right;
+    clear: right;
+    width: 40%;
+  }
+
+  /* Needed here because of blog shortcode */
+  .fusion-timeline-date {
+    position: relative;
+    clear: both;
+    margin: 0 auto 2px auto;
+    padding: 4px 0;
+    width: 108px;
+    line-height: 20px;
+    background: #efeeee;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .fusion-left-column .fusion-timeline-arrow {
+    left: 40%;
+    margin-left: -0.5px;
+
+    &:before {
+      content: @blog-timeline-arrow-left;
+      left: 100%;
+    }
+  }
+  .fusion-right-column  .fusion-timeline-arrow {
+    right: 40%;
+    margin-right: -0.5px;
+
+    &:before {
+      content: @blog-timeline-arrow-right;
+      right: 100%;
+    }
+  }
+}
+
+.fusion-blog-infinite {
+  .pagination {
+    display: none;
+  }
+
+  .fusion-load-more-button {
+    margin-bottom: 40px;
+  }
+}

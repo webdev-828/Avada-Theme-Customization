@@ -1,0 +1,163 @@
+.fusion-image-carousel {
+	margin-bottom: 40px;
+}
+
+/* All standard carousel styles */
+.fusion-carousel {
+	overflow: hidden;
+
+	padding: 0;
+	
+	.fusion-carousel-positioner {
+		position: relative;
+	}
+
+	.fusion-carousel-wrapper {
+		.box-sizing( content-box );
+		padding: 8px 0;	
+	}
+	
+	.fusion-carousel-swipe {
+		cursor: -webkit-grab;
+		cursor: -moz-grab;
+		cursor: grab;	
+	}
+
+	.fusion-carousel-holder {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	.fusion-carousel-item {
+		display: block;
+		float: left;
+		padding: 0;
+		
+		.fusion-carousel-item-wrapper {
+			display: inline-block;
+			visibility: hidden;
+			vertical-align: middle;
+			width: 100%;
+			line-height: normal;
+		}
+
+		.fusion-image-wrapper {
+			margin-bottom: 0;
+			text-align: center;
+		}
+
+		> a {
+			display: block;
+		}
+
+		img {
+			vertical-align: middle;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.fusion-carousel-title {
+		margin: 15px 0 3px;
+	}
+	
+	.fusion-carousel-price {
+		margin-top: 8px;
+		
+		.price {
+			margin-bottom: 0;
+		}
+	}
+		
+	.fusion-carousel-nav {
+		visibility: hidden;
+		
+		.fusion-nav-prev,
+		.fusion-nav-next {
+			display: block;
+			z-index: 1000;
+			opacity: 0.8;
+			position: absolute;
+			top: 50%;
+			margin-top: -14px;
+			height: 29px;
+			width: 29px;
+			text-align: center;
+			cursor: pointer;
+			color: transparent;
+			background-color: rgba(0, 0, 0, 0.5);
+			background-repeat: no-repeat;			
+
+			.no-rgba & {
+				background-color: #3e3e3e;
+			}		
+		
+			&:before {
+				display: block;
+				position: relative;
+				line-height: 29px;
+				font-size: 14px;
+				color: #fff;
+				font-family: @icon-font;
+			}
+			
+			&:hover {
+				opacity: 1;
+			}
+		
+		}
+
+		.fusion-nav-prev {
+			left: 0;
+
+			&:before {
+				content: @left-arrow-small;
+			}
+		}
+
+		.fusion-nav-next {
+			right: 0;
+
+			&:before {
+				content: @right-arrow-small;
+			}
+		}			
+	}
+}
+
+.fusion-carousel-border {
+	.fusion-image-wrapper {
+		border: 1px solid @default-border-color;
+	}
+}
+
+.fusion-image-carousel-fixed {
+	.fusion-carousel {
+		.fusion-carousel-wrapper {
+			height: 115px !important;
+		}
+	
+		.fusion-carousel-holder {
+			line-height: 115px !important;
+		}
+	
+		.fusion-carousel-item-wrapper {
+			text-align: center;
+		}
+	
+		.fusion-image-wrapper {
+			display: inline-block;
+			vertical-align: middle;
+			
+			a {
+				display: block;
+			}
+		
+			img {
+				max-height: 115px;
+				width: auto;
+			}
+		}
+	}
+}

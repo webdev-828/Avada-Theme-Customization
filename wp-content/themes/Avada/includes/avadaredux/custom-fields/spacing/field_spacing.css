@@ -1,0 +1,22 @@
+.avadaredux-container-spacing .field-spacing-input {
+  margin-right: 10px;
+  margin-bottom: 7px;
+  width: calc(25% - 15px);
+}
+.avadaredux-container-spacing .field-spacing-input input[type=text].mini {
+  width: calc(100% - 20px);
+}
+@media screen and (max-width: 782px) {
+  .avadaredux-container-spacing .field-spacing-input input {
+    display: inline-block !important;
+    width: 70px !important;
+  }
+  .avadaredux-container-spacing .field-spacing-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .avadaredux-container-spacing .select_wrapper {
+    margin-top: 6px;
+  }
+}

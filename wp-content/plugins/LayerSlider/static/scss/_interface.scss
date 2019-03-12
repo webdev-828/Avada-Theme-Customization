@@ -1,0 +1,368 @@
+// GENERAL
+.ls-overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 9999991;
+}
+
+//  NOTIFICATIONS
+//----------------------------------------------------------------
+
+.ls-notification {
+	margin-top: 15px !important;
+	padding: 5px 12px !important;
+}
+
+//  CUSTOM CHECKBOXES
+//----------------------------------------------------------------
+
+.ls-checkbox {
+	display: inline-block;
+	width: 38px;
+	height: 18px;
+	margin-bottom: -3px;
+	position: relative;
+	border-radius: 18px;
+	border: 1px solid #ccc;
+}
+
+.ls-checkbox span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	border-radius: 10px;
+	background: white;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 1px;
+}
+
+
+.ls-checkbox.on {
+	background: #90CA77;
+	border-color: #90CA77;
+}
+
+.ls-checkbox.on span {
+	top: 0px;
+	left: 0px;
+}
+
+//  POPUPS
+//----------------------------------------------------------------
+
+.ls-popup {
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	padding: 5px;
+	background: white;
+	background: rgba(255,255,255,.8);
+	border-radius: 7px;
+	color: #eee;
+	z-index: 9999993;
+	box-shadow: 0px 5px 30px -5px black;
+}
+
+.ls-popup .inner {
+	width: 300px;
+	height: 150px;
+}
+
+//  TOOLTIPS
+//----------------------------------------------------------------
+.ls-tooltip {
+	max-width: 260px;
+	min-width: 120px;
+	position: absolute;
+	padding: 10px;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	border-radius: 7px;
+	color: #eee;
+	font: normal normal normal 12px/14px Arial, sans-serif;
+	text-align: justify;
+	z-index: 999999;
+	box-shadow: 0px 2px 10px -2px black;
+}
+
+.ls-tooltip span {
+	display: block;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	bottom: -7px;
+	left: 50%;
+	opacity: .6;
+	margin-left: -7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid black;
+}
+
+
+
+//  BOXES
+//----------------------------------------------------------------
+.ls-box {
+	border: 1px solid #dfdfdf; // needs variable?
+	border-radius: 3px;
+	margin-top: 15px;
+	position: relative;
+
+	.header {
+		height: 28px;
+		position: relative;
+		line-height: 28px;
+		border-radius: 3px 3px 0 0;
+		font: normal normal bold 13px/29px 'Open Sans', Arial, serif;
+		background: #F1F1F1;
+
+		&.medium {
+			height: 38px;
+			line-height: 38px;
+
+		}
+
+		h2 {
+			margin: 0;
+			padding: 0;
+			float: left;
+			font: { family: 'Open Sans', Arial; weight: bold; size: 13px; }
+			line-height: inherit;
+			color: #333;
+			text-shadow: 0px 1px 0px #fff;
+			text-align: left;
+		}
+
+		p {
+			margin: 0;
+			float: left;
+		}
+	}
+
+	.footer, tfoot {
+		position: relative;
+		padding: 8px 10px !important;
+		border-top: 1px solid #dedede;
+		background: #f3f3f3;
+	}
+
+	table, tr {
+		width: 100%;
+	}
+}
+
+.ls-box .inner {
+	padding: 10px;
+}
+
+//  BOXES: SETTINGS TABLE
+//----------------------------------------------------------------
+.ls-box table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+
+	thead td, .ls-box th {
+		border-bottom: 1px solid #dfdfdf;
+		background: #f7f7f7;
+		//@include alphaGradient(3%, 9%);
+	}
+
+	tbody td, .ls-box tfoot td {
+		height: 30px;
+		padding: 4px;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #e3e3e3;
+		font: normal normal normal 13px/16px Arial, serif;
+		background: #fdfdfd;
+		// @include alphaGradient(0%, 2%);
+	}
+
+	tbody:last-child tr:last-child td {
+		border-bottom: 0;
+	}
+
+	tfoot td {
+		padding: 5px 10px;
+		border-bottom: 0px;
+	}
+}
+
+//  BOXES: FILTERS
+//----------------------------------------------------------------
+.ls-box .filters {
+
+	float: left;
+	border-left: 1px solid #dedede;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+
+	span {
+		float: left;
+		margin-right: 10px;
+		font-weight: normal;
+		font-size: 13px;
+		color: darken(white, 45%);
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style-type: none;
+		font-weight: normal;
+		font-size: 13px;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 0px 6px;
+			color: #333;
+			cursor: pointer;
+			text-shadow: none !important;
+
+			&.active {
+				border-radius: 3px;
+				color: white;
+				line-height: 18px;
+				background: #444;
+			}
+		}
+	}
+}
+
+//  MODAL DIALOG
+//----------------------------------------------------------------
+.ls-modal {
+	width: 980px;
+	height: 90%;
+	position: fixed;
+	top: 5%;
+	left: 50%;
+	margin: 0 0 0 -490px;
+	z-index: 9999992 !important;
+	box-shadow: 0px 0px 40px -13px #000;
+	background-color: white;
+}
+
+.ls-modal .header i {
+	float: right;
+	margin-right: -4px;
+	cursor: pointer;
+	font-size: 15px;
+	color: #db1b17;
+
+	&:hover {
+		color: #981210;
+	}
+}
+
+//  SLIDER
+//----------------------------------------------------------------
+
+.ls-editor-slider {
+	width: 260px !important;
+	height: 2px !important;
+	display: inline-block !important;
+	position: relative !important;
+	top: -2px !important;
+	background: #aaa !important;
+	border-radius: 2px !important;
+}
+
+.ls-editor-slider .ui-slider-range {
+	height: 2px !important;
+	background: #666 !important;
+}
+
+.ls-editor-slider .ui-slider-handle {
+	width: 10px !important;
+	height: 10px !important;
+	display: block !important;
+	position: absolute !important;
+	top: -5px !important;
+	background: white !important;
+	border: 1px solid #999 !important;
+	border-radius: 6px !important;
+}
+
+//  TABS
+//----------------------------------------------------------------
+.km-tabs {
+	position: relative;
+	z-index: 1;
+}
+
+.km-tabs a {
+	display: block !important;
+	position: relative;
+	width: 95px;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #dfdfdf;
+	color: #aaa;
+	background-color: #f9f9f9;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-decoration: none;
+	float: left;
+	margin: 3px 3px 0px 0px;
+	line-height: 30px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.km-tabs a.active {
+	color: #333;
+	border-bottom: 1px solid #F1F1F1;
+	background: #F1F1F1;
+}
+
+.km-tabs-content {
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	position: relative;
+	clear: both;
+	top: -1px;
+	margin: 0 !important;
+}
+
+.km-tabs-content > * {
+	display: none;
+}
+
+.km-tabs-content .active {
+	display: block;
+}
+
+.km-tabs-content .active .km-tabs-inner {
+	display: block;
+}
+
+.km-tabs-content .km-tabs-inner {
+	font-size: 12px;
+	color: #555;
+	display: none;
+}
+
+.km-tabs-content figure {
+	margin: 0;
+	padding: 0 0 0 10px;
+	border-top: 0px;
+	border-bottom: 1px solid #dfdfdf;
+	background: #F1F1F1 !important;
+	line-height: 29px;
+	color: #999;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px white;
+}

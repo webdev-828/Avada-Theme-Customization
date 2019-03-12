@@ -1,0 +1,52 @@
+/**************************************************/
+/*                   N O T I C E                  */
+/**************************************************/
+
+.ls-plugins-screen-notice:before {
+	content: "\f153" !important;
+}
+
+.layerslider_notice {
+	margin: 0px 15px 5px 0px;
+	padding: 19px 0px;
+	background: none;
+	border: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+.layerslider_notice img {
+	margin-right: 15px;
+	float: left;
+}
+
+.layerslider_notice h1 {
+	margin: -4px 0px 7px 0px;
+	font: normal normal normal 24px/26px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.layerslider_notice p {
+	margin: 0px;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: justify;
+	padding-right: 200px;
+	position: relative;
+}
+
+.layerslider_notice p i {
+	color: #999;
+	font-size: 13px;
+}
+
+.layerslider_notice a.button {
+	position: absolute;
+	right: 1px;
+	top: 0;
+}
+
+
+/**************************************************/
+/*                   N O T I C E                  */
+/**************************************************/
+@import "tinymce";

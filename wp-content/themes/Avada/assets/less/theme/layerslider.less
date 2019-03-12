@@ -1,0 +1,106 @@
+
+
+/* Slider */
+#layerslider-container {
+	margin: 0 auto;
+}
+#layerslider-wrapper {
+	position: relative;
+}
+#layerslider-wrapper .ls-shadow-top {
+	position: absolute;
+	background-image: url(assets/images/shadow-top.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 42px;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+}
+#layerslider-wrapper .ls-shadow-bottom {
+	position: absolute;
+	background-image: url(assets/images/shadow-bottom.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 32px;
+	width: 100%;
+	bottom: 0;
+	z-index: 99;
+}
+.ls-avada {
+	border-top: 1px solid #d2d3d4;
+	border-bottom: 1px solid #d2d3d4;
+}
+.ls-avada .ls-layer {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ls-avada .ls-nav-prev,
+.ls-avada .ls-nav-next,
+.products-slider .es-nav span {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 63px;
+	height: 63px;
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -31px;
+	opacity: 0.8;
+	text-align: center;
+}
+.ls-avada .ls-nav-prev:before,
+.ls-avada .ls-nav-next:before {
+	margin-left: -2px;
+	content: @left-arrow-large;
+	line-height: 63px;
+	font-family: @icon-font;
+	font-size: 25px;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+}
+.ls-avada .ls-nav-next:before {
+	margin-left: -1px;
+	content: @right-arrow-large;
+}
+
+.no-rgba .ls-avada .ls-nav-prev,
+.no-rgba .ls-avada .ls-nav-next,
+.no-rgba .wooslider .wooslider-prev,
+.no-rgba .wooslider .wooslider-next,
+.no-rgba .products-slider .es-nav span {
+	background-color: #ccc ;
+}
+.ls-avada .ls-nav-prev:hover,
+.ls-avada .ls-nav-next:hover,
+.products-slider .es-nav span:hover {
+	opacity: 1;
+}
+.ls-avada:hover .ls-nav-prev,
+.ls-avada:hover .ls-nav-next {
+	display: block;
+}
+.ls-avada .ls-nav-prev,
+.products-slider .es-nav span.es-nav-prev {
+	left: 0;
+	margin-left: 0;
+	z-index: 10;
+}
+.ls-avada .ls-nav-next,
+.products-slider .es-nav span.es-nav-next {
+	right: 0 ;
+	margin-left: 0;
+	z-index: 10;
+}
+.ls-avada .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+.ls-avada .ls-playvideo {
+	background-position: -300px -150px;
+}
+.ls-avada .ls-playvideo:hover,
+.ls-avada .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}

@@ -1,0 +1,2843 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LayerSlider WP 5.2.0\n"
+"POT-Creation-Date: 2014-08-15 00:06+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fatih Mehmet Ekler <fmeseo@gmail.com>\n"
+"Language-Team: Fatih Mehmet Ekler <fmeseo@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/class.km.autoupdate.v3.php:273
+msgid "Your settings were successfully saved."
+msgstr "Ayarlarınız başarıyla kaydedildi."
+
+#: ../config/defaults.php:14
+msgid "Slider width"
+msgstr "Slider genişliği"
+
+#: ../config/defaults.php:16
+msgid ""
+"The width of the slider in pixels. Accepts percents, but is only recommended "
+"for full-width layout."
+msgstr ""
+"Piksel sürgünün genişliği. Yüzdeleri kabul eder, ancak sadece tam genişlikte "
+"düzeni için tavsiye edilir."
+
+#: ../config/defaults.php:28
+msgid "Slider height"
+msgstr "Slider yüksekliği"
+
+#: ../config/defaults.php:30
+msgid "The height of the slider in pixels."
+msgstr "Piksel sürgünün yüksekliği."
+
+#: ../config/defaults.php:42
+msgid "Responsive"
+msgstr "Duyarlı"
+
+#: ../config/defaults.php:44
+msgid ""
+"Responsive mode provides optimal viewing experience across a wide range of "
+"devices (from desktop to mobile) by adapting and scaling your sliders for "
+"the viewing environment."
+msgstr ""
+"Duyarlı modu uyarlanması ve görüntüleme çevre için sürgü ölçekleme (mobil "
+"masaüstünden) cihazlar geniş bir yelpazede optimum izleme deneyimi sağlar."
+
+#: ../config/defaults.php:51
+msgid "Max-width"
+msgstr "Max-genişlik"
+
+#: ../config/defaults.php:53
+msgid ""
+"The maximum width your slider can take in pixels when responsive mode is "
+"enabled."
+msgstr "Maksimum duyarlı modu etkinken piksel sürebilir sürgüsünü genişliği."
+
+#: ../config/defaults.php:67
+msgid "Full-width"
+msgstr "Tam genişlik"
+
+#: ../config/defaults.php:69
+msgid ""
+"Enable this option to force the slider to become full-width, even if your "
+"theme does not support such layout."
+msgstr ""
+"Senin Tema, düzeni destek olmasa bile, tam genişliğini olmaya kaydırıcıyı "
+"zorlamak için bu seçeneği etkinleştirin."
+
+#: ../config/defaults.php:79
+msgid "Responsive under"
+msgstr "Altında Duyarlı"
+
+#: ../config/defaults.php:81
+msgid ""
+"Turns on responsive mode in a full-width slider under the specified value in "
+"pixels. Can only be used with full-width mode."
+msgstr ""
+"Piksel belirlenen değerin altında tam genişlik sürgüsünde duyarlı modunda "
+"açar. Yalnızca tam genişlik modunda kullanılabilir."
+
+#: ../config/defaults.php:92
+msgid "Layers container"
+msgstr "Katmanlar konteyner"
+
+#: ../config/defaults.php:94
+msgid ""
+"Creates an invisible inner container with the given dimension in pixels to "
+"hold and center your layers."
+msgstr ""
+"Tutun ve katmanları ortalamak için piksel verilen boyut ile görünmeyen bir "
+"iç kabı oluşturur."
+
+#: ../config/defaults.php:105
+msgid "Hide on mobile"
+msgstr "Mobil gizle"
+
+#: ../config/defaults.php:107
+msgid "Hides the slider on mobile devices."
+msgstr "Mobil cihazlarda kaydırma çubuğunu gizler."
+
+#: ../config/defaults.php:115
+msgid "Hide under"
+msgstr "Altında gizle"
+
+#: ../config/defaults.php:117
+msgid "Hides the slider under the given value of browser width in pixels."
+msgstr ""
+"Piksel tarayıcı genişliğinin belirli bir değerin altındaki kaydırma çubuğunu "
+"gizler."
+
+#: ../config/defaults.php:127
+msgid "Hide over"
+msgstr "Üzerinde gizle"
+
+#: ../config/defaults.php:129
+msgid "Hides the slider over the given value of browser width in pixel."
+msgstr ""
+"Piksel tarayıcı genişliğinin belirli bir değerin üzerinde kaymak gizler."
+
+#: ../config/defaults.php:142
+msgid "Start slideshow"
+msgstr "Gösteriyi Başlat"
+
+#: ../config/defaults.php:144
+msgid "Slideshow will automatically start after pages have loaded."
+msgstr ""
+"Sayfalar yükledikten sonra slayt gösterisi otomatik olarak başlayacaktır."
+
+#: ../config/defaults.php:150
+msgid "Start in viewport"
+msgstr "Ekranlarında başlayın"
+
+#: ../config/defaults.php:152
+msgid "The slider will start only if it enters into the viewport."
+msgstr "Bu görünüm içine girerse kaymak sadece başlayacaktır."
+
+#: ../config/defaults.php:158
+msgid "Pause on hover"
+msgstr "Vurgulu üzerinde Pause"
+
+#: ../config/defaults.php:160
+msgid ""
+"Slideshow will temporally pause when someone moves the mouse cursor over the "
+"slider."
+msgstr ""
+"Birisi sürgünün üzerine fare imleci hareket ettirdiğinde Slayt geçici "
+"duraklama olacaktır."
+
+#: ../config/defaults.php:166
+msgid "Start with slide"
+msgstr "Slayt ile başlayın"
+
+#: ../config/defaults.php:168
+msgid ""
+"The slider will start with the specified slide. You can use the value "
+"\"random\"."
+msgstr ""
+
+#: ../config/defaults.php:177
+msgid "Animate starting slide"
+msgstr "Slayt başlayan canlandırın"
+
+#: ../config/defaults.php:179
+msgid ""
+"Disabling this option will result a static starting slide for the fisrt time "
+"on page load."
+msgstr ""
+"Bu seçeneği devre dışı bırakmak sayfa yük fisrt zaman için statik bir "
+"başlangıç ​​slayt neden olacaktır."
+
+#: ../config/defaults.php:185
+msgid "Shuffle mode"
+msgstr "Karışık modunu"
+
+#: ../config/defaults.php:187
+msgid ""
+"Slideshow will proceed in random order. This feature does not work with "
+"looping."
+msgstr "Slayt rastgele sırayla devam edecek. Bu özellik döngü ile çalışmıyor."
+
+#: ../config/defaults.php:194
+msgid "Two way slideshow"
+msgstr "İki yönlü slayt"
+
+#: ../config/defaults.php:196
+msgid "Slideshow can go backwards if someone switches to a previous slide."
+msgstr "Birisi bir önceki slayta geçer eğer Slayt geriye gidebilirsiniz."
+
+#: ../config/defaults.php:203 ../views/slider_edit_settings.php:132
+msgid "Loops"
+msgstr "Döngüler"
+
+#: ../config/defaults.php:205
+msgid "Number of loops if slideshow is enabled. Zero means infinite loops."
+msgstr "Döngüler sayısı slayt etkinse. Sıfır sonsuz döngüler anlamına gelir."
+
+#: ../config/defaults.php:213
+msgid "Force the number of loops"
+msgstr "Döngülerin sayısını zorla"
+
+#: ../config/defaults.php:215
+msgid ""
+"The slider will always stop at the given number of loops, even if someone "
+"restarts slideshow."
+msgstr ""
+"Kaymak zaman birisi slayt başlatır bile, döngüler belirli sayıda duracaktır."
+
+#: ../config/defaults.php:221
+msgid "Keyboard navigation"
+msgstr "Klavye navigasyon"
+
+#: ../config/defaults.php:223
+msgid "You can navigate through slides with the left and right arrow keys."
+msgstr "Sen sağ ve sol ok tuşları ile slaytlar gezinebilirsiniz."
+
+#: ../config/defaults.php:229
+msgid "Touch navigation"
+msgstr "Dokunmatik navigasyon"
+
+#: ../config/defaults.php:231
+msgid "Gesture-based navigation when swiping on touch-enabled devices."
+msgstr ""
+"Jest tabanlı dokunmatik navigasyon özellikli cihazlarda okutarak zaman."
+
+#: ../config/defaults.php:242 ../views/slider_edit_settings.php:157
+msgid "Skin"
+msgstr "Görünü"
+
+#: ../config/defaults.php:244
+msgid ""
+"The skin used for this slider. The 'noskin' skin is a border- and buttonless "
+"skin. Your custom skins will appear in the list when you create their "
+"folders."
+msgstr ""
+"Bu kaymak için kullanılan deri. 'Noskin' ten Sınır-ve buttonless cilt. Eğer "
+"onların klasörler oluşturabilirsiniz zaman özel derileri listesinde "
+"görünecektir."
+
+#: ../config/defaults.php:251
+msgid "Background color"
+msgstr "Arka plan rengi"
+
+#: ../config/defaults.php:253
+msgid ""
+"Global background color of the slider. Slides with non-transparent "
+"background will cover this one. You can use all CSS methods such as HEX or "
+"RGB(A) values."
+msgstr ""
+"Sürgünün Küresel arka plan rengi. Olmayan şeffaf arka plan ile slaytlar bu "
+"bir kapsayacaktır. Bu tür HEX veya RGB (A) değerleri gibi tüm CSS "
+"yöntemlerini kullanabilirsiniz."
+
+#: ../config/defaults.php:259 ../views/slider_edit_settings.php:182
+msgid "Background image"
+msgstr "Arka plan resmi"
+
+#: ../config/defaults.php:261
+msgid ""
+"Global background image of the slider. Slides with non-transparent "
+"backgrounds will cover it. This image will not scale in responsive mode."
+msgstr ""
+"Sürgünün Küresel arka plan görüntüsü. Saydam olmayan geçmişe sahip slaytlar "
+"onu kapsayacaktır. Bu görüntü duyarlı modunda ölçek olmaz."
+
+#: ../config/defaults.php:266
+msgid "Initial fade duration"
+msgstr "İlk solmaya süresi"
+
+#: ../config/defaults.php:268
+msgid ""
+"Change the duration of the initial fade animation when the page loads. Enter "
+"0 to disable fading."
+msgstr ""
+"İlk solmaya animasyon sayfa yüklendiğinde süresini değiştirin. Solmaya devre "
+"dışı bırakmak için 0 girin."
+
+#: ../config/defaults.php:278
+msgid "Slider CSS"
+msgstr "Slider CSS"
+
+#: ../config/defaults.php:280
+msgid ""
+"You can enter custom CSS to change some style properties on the slider "
+"wrapper element. More complex CSS should be applied with the Custom Styles "
+"Editor."
+msgstr ""
+"Sen kaymak sarıcı eleman bazı stil özelliklerini değiştirmek için özel CSS "
+"girebilirsiniz. Daha karmaşık CSS Özel Styles Editor ile uygulanmalıdır."
+
+#: ../config/defaults.php:294
+msgid "Show Prev & Next buttons"
+msgstr "Göster Önceki & Sonraki düğmeleri"
+
+#: ../config/defaults.php:296
+msgid "Disabling this option will hide the Prev and Next buttons."
+msgstr ""
+"Önceki ve Sonraki düğmelerini gizlemek Bu seçeneği devre dışı bırakmak."
+
+#: ../config/defaults.php:303
+msgid "Show Prev & Next buttons on hover"
+msgstr "Vurgulu Göster Önceki & İleri düğmeleri"
+
+#: ../config/defaults.php:305
+msgid ""
+"Show the buttons only when someone moves the mouse cursor over the slider. "
+"This option depends on the previous setting."
+msgstr ""
+"Birisi sürgünün üzerine fare imlecini sadece düğmelerini göster. Bu seçenek, "
+"önceki ayara bağlıdır."
+
+#: ../config/defaults.php:311
+msgid "Show Start & Stop buttons"
+msgstr "Start & Stop düğmeleri göster"
+
+#: ../config/defaults.php:313
+msgid "Disabling this option will hide the Start & Stop buttons."
+msgstr "Start & Stop düğmeleri gizlemek Bu seçeneği devre dışı bırakmak."
+
+#: ../config/defaults.php:319
+msgid "Show slide navigation buttons"
+msgstr "Göster slayt navigasyon düğmeleri"
+
+#: ../config/defaults.php:321
+msgid "Disabling this option will hide slide navigation buttons or thumbnails."
+msgstr ""
+"Slayt gezinme düğmelerini veya küçük gizlemek Bu seçeneği devre dışı "
+"bırakmak."
+
+#: ../config/defaults.php:328
+msgid "Slide navigation on hover"
+msgstr "Vurgulu üzerinde navigasyon kaydırın"
+
+#: ../config/defaults.php:330
+msgid ""
+"Slide navigation buttons (including thumbnails) will be shown on mouse hover "
+"only."
+msgstr ""
+"(Küçük dahil olmak üzere) Slayt gezinti düğmeleri fareyi yalnızca gösterilir."
+
+#: ../config/defaults.php:336
+msgid "Show bar timer"
+msgstr "Göster çubuğu zamanlayıcı"
+
+#: ../config/defaults.php:338
+msgid "Show the bar timer to indicate slideshow progression."
+msgstr "Slayt ilerlemesini gösterir çubuğu zamanlayıcı göster."
+
+#: ../config/defaults.php:345
+msgid "Show circle timer"
+msgstr "Göster daire zamanlayıcı"
+
+#: ../config/defaults.php:347
+msgid "Use circle timer to indicate slideshow progression."
+msgstr "Slayt ilerlemesini gösterir daire zamanlayıcı kullanın."
+
+#: ../config/defaults.php:359 ../views/slider_edit_settings.php:258
+msgid "Thumbnail navigation"
+msgstr "Küçük resim navigasyon"
+
+#: ../config/defaults.php:361
+msgid "Use thumbnail navigation instead of slide bullet buttons."
+msgstr "Küçük navigasyon yerine slayt kurşun düğmelerini kullanın."
+
+#: ../config/defaults.php:363
+msgid "Disabled"
+msgstr "Devredışı"
+
+#: ../config/defaults.php:364
+msgid "Hover"
+msgstr "Vurgusu"
+
+#: ../config/defaults.php:365
+msgid "Always"
+msgstr "Her zaman"
+
+#: ../config/defaults.php:372
+msgid "Thumbnail container width"
+msgstr "Küçük resim konteyner genişliği"
+
+#: ../config/defaults.php:374
+msgid "The width of the thumbnail area."
+msgstr "Resim alanının genişliği."
+
+#: ../config/defaults.php:380
+msgid "Thumbnail width"
+msgstr "Küçük resim genişliği"
+
+#: ../config/defaults.php:382
+msgid "The width of thumbnails in the navigation area."
+msgstr "Gezinme alanında küçük resim genişliği."
+
+#: ../config/defaults.php:391
+msgid "Thumbnail height"
+msgstr "Küçük resim yükseklik"
+
+#: ../config/defaults.php:393
+msgid "The height of thumbnails in the navigation area."
+msgstr "Gezinme alanında küçük resim yüksekliği."
+
+#: ../config/defaults.php:403
+msgid "Active thumbnail opacity"
+msgstr "Aktif küçük donukluk"
+
+#: ../config/defaults.php:405
+msgid "Opacity in percentage of the active slide's thumbnail."
+msgstr "Etkin slaytların küçük resminin yüzdesi Opaklık."
+
+#: ../config/defaults.php:415
+msgid "Inactive thumbnail opacity"
+msgstr "Inaktif küçük donukluk"
+
+#: ../config/defaults.php:417
+msgid "Opacity in percentage of inactive slide thumbnails."
+msgstr "Inaktif slayt küçük yüzdesi matlık."
+
+#: ../config/defaults.php:431
+msgid "Automatically play videos"
+msgstr "Otomatik video oynatmak"
+
+#: ../config/defaults.php:433
+msgid "Videos will be automatically started on the active slide."
+msgstr "Videolar otomatik olarak aktif slaytta başlamış olacaktır."
+
+#: ../config/defaults.php:441
+msgid "Pause slideshow"
+msgstr "Pause slayt"
+
+#: ../config/defaults.php:443
+msgid ""
+"The slideshow can temporally be paused while videos are playing. You can "
+"choose to permanently stop the pause until manual restarting."
+msgstr ""
+"Videolar oynarken slayt geçici durdurulmuş olabilir. Kalıcı manuel "
+"yolvermeyi kadar durdurabiliyor seçebilirsiniz."
+
+#: ../config/defaults.php:445
+msgid "While playing"
+msgstr "Oynarken"
+
+#: ../config/defaults.php:446
+msgid "Permanently"
+msgstr "Kalıcı"
+
+#: ../config/defaults.php:447
+msgid "No action"
+msgstr "Eylem yok"
+
+#: ../config/defaults.php:461
+msgid "Youtube preview"
+msgstr "Youtube önizleme"
+
+#: ../config/defaults.php:463
+msgid ""
+"The preview image quaility for YouTube videos. Please note, some videos do "
+"not have HD previews, and you may need to choose a lower quaility."
+msgstr ""
+"YouTube videoları için Önizleme görüntüsü quaility. Bazı videolar HD "
+"önizleme yok, unutmayın, ve daha düşük bir quaility seçmeniz gerekebilir "
+"Lütfen."
+
+#: ../config/defaults.php:465
+msgid "Maximum quality"
+msgstr "Maksimum kalite"
+
+#: ../config/defaults.php:466
+msgid "High quality"
+msgstr "Yüksek kalite"
+
+#: ../config/defaults.php:467
+msgid "Medium quality"
+msgstr "Orta kalite"
+
+#: ../config/defaults.php:468
+msgid "Default quality"
+msgstr "Standart kalite"
+
+#: ../config/defaults.php:479
+msgid "Image preload"
+msgstr "Görüntü önyükleme"
+
+#: ../config/defaults.php:481
+msgid "Preloads images used in the next slides for seamless animations."
+msgstr ""
+"Sorunsuz animasyonlar için bir sonraki slaytlarda kullanılan ön kuvvetler "
+"görüntüler."
+
+#: ../config/defaults.php:486
+msgid "Lazy load images"
+msgstr "Tembel yük görüntüleri"
+
+#: ../config/defaults.php:488
+msgid ""
+"Loads images only when needed to save bandwidth and server resources. Relies "
+"on the preload feature."
+msgstr ""
+"Bant genişliği ve sunucu kaynaklarını kaydetmek için gereken tek yükler "
+"görüntüler. Önyükleme özelliği dayanır."
+
+#: ../config/defaults.php:496
+msgid "Use relative URLs"
+msgstr "Bağıl URL'ler kullanın"
+
+#: ../config/defaults.php:498
+msgid ""
+"Use relative URLs for local images. This setting could be important when "
+"moving your WP installation."
+msgstr ""
+"Yerel görüntüler için bağıl URL'ler kullanın. WP kurulum taşırken Bu ayar "
+"önemli olabilir."
+
+#: ../config/defaults.php:512 ../views/slider_edit_settings.php:27
+msgid "YourLogo"
+msgstr "YourLogo"
+
+#: ../config/defaults.php:514
+msgid ""
+"A fixed image layer can be shown above the slider that remains still during "
+"slide progression. Can be used to display logos or watermarks."
+msgstr ""
+"Sabit bir görüntü katmanı slayt ilerlemesi sırasında hala devam sürgünün "
+"üstünde gösterilebilir. Logoları veya filigran görüntülemek için "
+"kullanılabilir."
+
+#: ../config/defaults.php:521
+msgid "YourLogo style"
+msgstr "YourLogo tarzı"
+
+#: ../config/defaults.php:523
+msgid "CSS properties to control the image placement and appearance."
+msgstr "CSS özellikleri Görüntü yerleşimini ve görünümünü kontrol etmek."
+
+#: ../config/defaults.php:530
+msgid "YourLogo link"
+msgstr "YourLogo bağlantı"
+
+#: ../config/defaults.php:532
+msgid "Enter an URL to link the YourLogo image."
+msgstr "YourLogo görüntüyü bağlamak için bir URL girin."
+
+#: ../config/defaults.php:539
+msgid "Link target"
+msgstr "Bağlantı hedef"
+
+#: ../config/defaults.php:667
+msgid "Set a slide image"
+msgstr "Bir slayt görüntüsü ayarla"
+
+#: ../config/defaults.php:669
+msgid ""
+"The slide image/background. Click on the image to open the WordPress Media "
+"Library to choose or upload an image."
+msgstr ""
+"Slayt resmi / arka plan. Seçebilir veya bir görüntüyü yüklemek için "
+"WordPress Medya Kitaplığı açmak için resmin üzerine tıklayın."
+
+#: ../config/defaults.php:681
+msgid "Set a slide thumbnail"
+msgstr "Bir slayt küçük resmini ayarla"
+
+#: ../config/defaults.php:683
+msgid ""
+"The thumbnail image of this slide. Click on the image to open the WordPress "
+"Media Library to choose or upload an image. If you leave this field empty, "
+"the slide image will be used."
+msgstr ""
+"Bu slaytın küçük resim. Seçebilir veya bir görüntüyü yüklemek için WordPress "
+"Medya Kitaplığı açmak için resmin üzerine tıklayın. Bu alanı boş "
+"bırakırsanız, slayt resim kullanılır."
+
+#: ../config/defaults.php:697
+msgid "Slide delay"
+msgstr "Slayt gecikme"
+
+#: ../config/defaults.php:699
+msgid ""
+"Here you can set the time interval between slide changes, this slide will "
+"stay visible for the time specified here. This value is in millisecs, so the "
+"value 1000 means 1 second. Please don't use 0 or very low values."
+msgstr ""
+"Burada slayt değişiklikler arasındaki zaman aralığını ayarlayabilirsiniz, bu "
+"slayt burada belirtilen süre için görünür kalacak. Bu değer millisecs "
+"olarak, yani 1000 değeri 1 saniye anlamına gelir. 0 ya da çok düşük değerler "
+"kullanmayın lütfen."
+
+#: ../config/defaults.php:728
+msgid "Time Shift"
+msgstr "Zaman Kaydırma"
+
+#: ../config/defaults.php:730
+msgid ""
+"You can control here the timing of the layer animations when the slider "
+"changes to this slide with a 3D/2D transition. Zero means that the layers of "
+"this slide will animate in when the slide transition ends. You can time-"
+"shift the starting time of the layer animations with positive or negative "
+"values."
+msgstr ""
+"Burada katman animasyonlar zamanlamasını kontrol edebilirsiniz zaman 3D / 2D "
+"geçiş ile bu slayt kaymak değişir. Sıfır slayt geçiş sona erdiğinde bu slayt "
+"tabakalar animasyon anlamına gelir. Sen pozitif veya negatif değerler ile "
+"katman animasyonlar başlangıç ​​zamanını zaman aşımına-kayabilir."
+
+#: ../config/defaults.php:738 ../config/defaults.php:1181
+msgid "Enter URL"
+msgstr "URL'yi girin"
+
+#: ../config/defaults.php:740
+msgid "If you want to link the whole slide, enter the URL of your link here."
+msgstr ""
+"Eğer bütün slaytı bağlamak istiyorsanız, burada bağlantı URL'sini girin."
+
+#: ../config/defaults.php:749
+msgid "Link Target"
+msgstr "Bağlantı Hedefi"
+
+#: ../config/defaults.php:765
+msgid "#ID"
+msgstr "#Kimlik"
+
+#: ../config/defaults.php:767
+msgid ""
+"You can apply an ID attribute on the HTML element of this slide to work with "
+"it in your custom CSS or Javascript code."
+msgstr ""
+"Sen özel CSS veya JavaScript kodunu onunla çalışmak için bu slayt HTML öğesi "
+"bir kimlik niteliğini uygulayabilirsiniz."
+
+#: ../config/defaults.php:775
+msgid "Deeplink"
+msgstr "Derinden bağlantısı"
+
+#: ../config/defaults.php:777
+msgid ""
+"You can specify a slide alias name which you can use in your URLs with a "
+"hash mark, so LayerSlider will start with the correspondig slide."
+msgstr ""
+"Sen karma işareti URL'lerinizdeki kullanabileceğiniz bir slayt takma ad "
+"belirtebilirsiniz, böylece LayerSlider karsilik gelen slayt ile başlayacak."
+
+#: ../config/defaults.php:790 ../config/defaults.php:1150
+#: ../views/slider_edit.php:313 ../views/slider_edit.php:630
+#: ../views/slider_edit_sample.php:78 ../views/slider_edit_sample.php:337
+msgid "Hidden"
+msgstr "Gizli"
+
+#: ../config/defaults.php:792 ../views/slider_edit.php:314
+#: ../views/slider_edit_sample.php:79
+msgid ""
+"If you don't want to use this slide in your front-page, but you want to keep "
+"it, you can hide it with this switch."
+msgstr ""
+"Eğer ön sayfasında bu slaytı kullanmak istemiyorum, ama bunu tutmak "
+"istiyorsanız, bu anahtarı ile gizleyebilirsiniz."
+
+#: ../config/defaults.php:868 ../config/defaults.php:984
+msgid "OffsetX"
+msgstr "OffsetX"
+
+#: ../config/defaults.php:870
+msgid ""
+"The horizontal offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or enter left / right to position the layer out "
+"of the frame."
+msgstr ""
+"Yatay tabakalar başlangıç ​​konumunu hizalamak için ofset. Pozitif ve negatif "
+"sayılar izin verilir ve / veya çerçevenin dışına katmanı yerleştirmek için "
+"sağa sola girin."
+
+#: ../config/defaults.php:875 ../config/defaults.php:991
+msgid "OffsetY"
+msgstr "OffsetY"
+
+#: ../config/defaults.php:877
+msgid ""
+"The vertical offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or enter top / bottom to position the layer out "
+"of the frame."
+msgstr ""
+"Dikey tabakaların başlangıç ​​konumunu hizalamak için ofset. Pozitif ve "
+"negatif sayılar veya izin çerçevenin dışına katmanı yerleştirmek için üst / "
+"alt girer."
+
+#: ../config/defaults.php:885 ../config/defaults.php:1001
+#: ../views/transition_builder.php:143 ../views/transition_builder.php:200
+#: ../views/transition_builder.php:279 ../views/transition_builder.php:409
+#: ../views/transition_builder.php:651 ../views/transition_builder.php:721
+#: ../views/transition_builder.php:809 ../views/transition_builder.php:963
+msgid "Duration"
+msgstr "Süre"
+
+#: ../config/defaults.php:887
+msgid ""
+"The transition duration in milliseconds when the layer enters into the "
+"slide. A second equals to 1000 milliseconds."
+msgstr ""
+"Milisaniye geçiş süresi ne zaman katmanı slayt girer. İkinci bir 1000 "
+"milisaniye eşittir."
+
+#: ../config/defaults.php:896 ../config/defaults.php:1119
+#: ../views/transition_builder.php:106 ../views/transition_builder.php:185
+#: ../views/transition_builder.php:261 ../views/transition_builder.php:321
+#: ../views/transition_builder.php:388 ../views/transition_builder.php:610
+#: ../views/transition_builder.php:706 ../views/transition_builder.php:787
+#: ../views/transition_builder.php:864 ../views/transition_builder.php:942
+msgid "Delay"
+msgstr "Geciktir"
+
+#: ../config/defaults.php:898
+msgid ""
+"Delays the transition with the given amount of milliseconds before the layer "
+"enters into the slide. A second equals to 1000 milliseconds."
+msgstr ""
+"Katman sürgünün içine girmeden önce milisaniye belirli bir miktara sahip "
+"geçiş geciktirmektedir. İkinci bir 1000 milisaniye eşittir."
+
+#: ../config/defaults.php:907 ../config/defaults.php:1023
+#: ../views/transition_builder.php:145 ../views/transition_builder.php:202
+#: ../views/transition_builder.php:281 ../views/transition_builder.php:411
+#: ../views/transition_builder.php:653 ../views/transition_builder.php:723
+#: ../views/transition_builder.php:811 ../views/transition_builder.php:965
+msgid "Easing"
+msgstr "Kolaylaştırılması"
+
+#: ../config/defaults.php:909 ../config/defaults.php:1025
+#: ../views/transition_builder.php:147 ../views/transition_builder.php:204
+#: ../views/transition_builder.php:283 ../views/transition_builder.php:413
+#: ../views/transition_builder.php:656 ../views/transition_builder.php:725
+#: ../views/transition_builder.php:814 ../views/transition_builder.php:967
+msgid ""
+"The timing function of the animation. With this function you can manipulate "
+"the movement of the animated object. Please click on the link next to this "
+"select field to open easings.net for more information and real-time examples."
+msgstr ""
+"Animasyon zamanlama fonksiyonu. Bu fonksiyon ile hareketli bir nesnenin "
+"hareketini işleyebilirsiniz. Gelecek fazla bilgi ve gerçek zamanlı örnekler "
+"easings.net açmak için bu seçim alanı için linke tıklayınız."
+
+#: ../config/defaults.php:914 ../config/defaults.php:1030
+#: ../views/transition_builder.php:454 ../views/transition_builder.php:1008
+msgid "Fade"
+msgstr "Solma"
+
+#: ../config/defaults.php:916 ../config/defaults.php:1032
+msgid "Fade the layer during the transition."
+msgstr "Geçiş sırasında katmanı yok olur."
+
+#: ../config/defaults.php:924 ../config/defaults.php:1041
+msgid "Rotate"
+msgstr "Döndür"
+
+#: ../config/defaults.php:926
+msgid ""
+"Rotates the layer clockwise from the given angle to zero degree. Negative "
+"values are allowed for counterclockwise rotation."
+msgstr ""
+"Sıfır dereceye kadar verilen açıdan katman saat yönünde döndürür. Negatif "
+"değerler saat yönünün tersine dönüş için izin verilir."
+
+#: ../config/defaults.php:931 ../config/defaults.php:1048
+#: ../views/transition_builder.php:183 ../views/transition_builder.php:249
+#: ../views/transition_builder.php:259 ../views/transition_builder.php:319
+#: ../views/transition_builder.php:474 ../views/transition_builder.php:704
+#: ../views/transition_builder.php:785 ../views/transition_builder.php:862
+#: ../views/transition_builder.php:1028
+msgid "RotateX"
+msgstr "RotateX"
+
+#: ../config/defaults.php:933
+msgid ""
+"Rotates the layer along the X (horizontal) axis from the given angle to zero "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+"Sıfır dereceye kadar verilen açısı x (yatay) eksen boyunca bir tabaka "
+"döndürür. Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:938 ../config/defaults.php:1055
+#: ../views/transition_builder.php:184 ../views/transition_builder.php:260
+#: ../views/transition_builder.php:320 ../views/transition_builder.php:476
+#: ../views/transition_builder.php:705 ../views/transition_builder.php:786
+#: ../views/transition_builder.php:863 ../views/transition_builder.php:1030
+msgid "RotateY"
+msgstr "RotateY"
+
+#: ../config/defaults.php:940
+msgid ""
+"Rotates the layer along the Y (vertical) axis from the given angle to zero "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+"Sıfır dereceye kadar verilen açısı Y (dikey) ekseni boyunca bir tabaka "
+"döndürür. Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:945 ../config/defaults.php:1062
+msgid "SkewX"
+msgstr "SkewX"
+
+#: ../config/defaults.php:947
+msgid ""
+"Skews the layer along the X (horizontal) axis from the given angle to 0 "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+"0 dereceye kadar verilen açısı x (yatay) eksen boyunca bir tabaka eğriltir. "
+"Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:952 ../config/defaults.php:1069
+msgid "SkewY"
+msgstr "SkewY"
+
+#: ../config/defaults.php:954
+msgid ""
+"Skews the layer along the Y (vertical) axis from the given angle to 0 "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+"0 dereceye kadar verilen açısı Y (dikey) ekseni boyunca bir tabaka eğriltir. "
+"Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:959 ../config/defaults.php:1076
+msgid "ScaleX"
+msgstr "ScaleX"
+
+#: ../config/defaults.php:961
+msgid "Scales the layer's width from the given value to its original size."
+msgstr "Özgün boyutuna verilen değerden katmanın genişliğini teraziler."
+
+#: ../config/defaults.php:967 ../config/defaults.php:1084
+msgid "ScaleY"
+msgstr "ScaleY"
+
+#: ../config/defaults.php:969
+msgid "Scales the layer's height from the given value to its original size."
+msgstr "Özgün boyutuna verilen değerden katmanın yüksekliğini ölçekler."
+
+#: ../config/defaults.php:975 ../config/defaults.php:1092
+msgid "TransformOrigin"
+msgstr "TransformOrigin"
+
+#: ../config/defaults.php:977 ../config/defaults.php:1094
+msgid ""
+"This option allows you to modify the origin for transformations of the layer "
+"according to its position. The three values represent the X, Y and Z axis in "
+"3D space. OriginX can be left, center, right, a number or a percentage "
+"value. OriginY can be top, center, bottom, a number or a percentage value. "
+"OriginZ can be a number and corresponds the depth in 3D space."
+msgstr ""
+"Bu seçenek konumuna göre tabakasının dönüşümler için kökenini değiştirmenize "
+"olanak sağlar. Üç değer 3D uzayda X, Y ve Z ekseni temsil eder. OriginX "
+"bırakılabilir, merkez, sağ, bir sayı veya yüzde değeri. OriginY üst, orta, "
+"alt, bir sayı veya yüzde değer olabilir. OriginZ bir sayı ve 3D uzayda "
+"derinliği tekabül eder."
+
+#: ../config/defaults.php:986
+msgid ""
+"The horizontal offset to align the ending position of layers. Positive and "
+"negative numbers are allowed or write left / right to position the layer out "
+"of the frame."
+msgstr ""
+"Yatay katmanları biten hizalayabilmesi ofset. Pozitif ve negatif sayılar "
+"izin verilir ve / veya çerçevenin dışına katmanı yerleştirmek için sağa sola "
+"yazma."
+
+#: ../config/defaults.php:993
+msgid ""
+"The vertical offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or write top / bottom to position the layer out "
+"of the frame."
+msgstr ""
+"Dikey tabakaların başlangıç ​​konumunu hizalamak için ofset. Pozitif ve "
+"negatif sayılar veya izin çerçevenin dışına katmanı yerleştirmek için üst / "
+"alt yazma edilir."
+
+#: ../config/defaults.php:1003
+msgid ""
+"The transition duration in milliseconds when the layer leaves the slide. A "
+"second equals to 1000 milliseconds."
+msgstr ""
+"Milisaniye geçiş süresi ne zaman katmanı slayt bırakır. İkinci bir 1000 "
+"milisaniye eşittir."
+
+#: ../config/defaults.php:1012
+msgid "Show until"
+msgstr "Göster kadar"
+
+#: ../config/defaults.php:1014
+msgid ""
+"The layer will be visible for the time you specify here, then it will slide "
+"out. You can use this setting for layers to leave the slide before the slide "
+"itself animates out, or for example before other layers will slide in. This "
+"value in millisecs, so the value 1000 means 1 second."
+msgstr ""
+"Burada belirtmek, daha sonra dışarı çıkacaktır süre için katman görünür "
+"olacaktır. Slayt kendini dışarı animasyon, ya da örneğin önce katmanları "
+"slayt bırakmak için başka katmanlar in. Millisecs Bu değer kayacaktır önce "
+"değeri 1000 1 saniye demektir ki, bu ayarı kullanabilirsiniz."
+
+#: ../config/defaults.php:1043
+msgid ""
+"Rotates the layer clockwise by the given angle from its original position. "
+"Negative values are allowed for counterclockwise rotation."
+msgstr ""
+"Orijinal konumuna göre verilen bir açıda katman saat yönünde döndürür. "
+"Negatif değerler saat yönünün tersine dönüş için izin verilir."
+
+#: ../config/defaults.php:1050
+msgid ""
+"Rotates the layer along the X (horizontal) axis by the given angle from its "
+"original state. Negative values are allowed for reverse direction."
+msgstr ""
+"Özgün durumuna verilen açı ile X (yatay) eksende katmanı döndürür. Negatif "
+"değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:1057
+msgid ""
+"Rotates the layer along the Y (vertical) axis by the given angle from its "
+"orignal state. Negative values are allowed for reverse direction."
+msgstr ""
+"Onun esas program durumundan verilen açı ile Y (dikey) ekseni boyunca bir "
+"tabaka döndürür. Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:1064
+msgid ""
+"Skews the layer along the X (horizontal) axis by the given angle from its "
+"orignal state. Negative values are allowed for reverse direction."
+msgstr ""
+"Onun esas program durumundan verilen açı ile X (yatay) eksen boyunca bir "
+"tabaka eğriltir. Negatif değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:1071
+msgid ""
+"Skews the layer along the Y (vertical) axis by the given angle from its "
+"original state. Negative values are allowed for reverse direction."
+msgstr ""
+"Özgün durumuna verilen açı ile Y (dikey) eksende katmanı eğriltir. Negatif "
+"değerler ters yönde için izin verilir."
+
+#: ../config/defaults.php:1078
+msgid "Scales the layer's width by the given value from its original size."
+msgstr "Katmanın genişliği orijinal boyutu verilen değeri ile teraziler."
+
+#: ../config/defaults.php:1086
+msgid "Scales the layer's height by the given value from its original size."
+msgstr "Katmanın yüksekliği orijinal boyutu verilen değeri ile teraziler."
+
+#: ../config/defaults.php:1099
+msgid "Parallax Level"
+msgstr "Paralaks Seviye"
+
+#: ../config/defaults.php:1101
+msgid ""
+"Applies a parallax effect on layers when you move your mouse over the "
+"slider. Higher values make the layer more sensitive to mouse move. Negative "
+"values are allowed."
+msgstr ""
+"Eğer sürgünün üzerinde fareyi hareket ettirdiğinizde katmanlar üzerinde bir "
+"paralaks etkisi uygular. Yüksek değerler fare hareketi için katman daha "
+"duyarlı olun. Negatif değerler izin verilir."
+
+#: ../config/defaults.php:1108 ../config/defaults.php:1113
+#: ../views/transition_builder.php:450 ../views/transition_builder.php:1004
+msgid "Type"
+msgstr "Tip"
+
+#: ../config/defaults.php:1121
+msgid ""
+"Delay before the animation start when the layer slides out. This value is in "
+"millisecs, so the value 1000 means 1 second."
+msgstr ""
+"Tabaka dışarı slaytlar zaman animasyon önce gecikme başlar. Bu değer "
+"millisecs olarak, yani 1000 değeri 1 saniye anlamına gelir."
+
+#: ../config/defaults.php:1130 ../config/defaults.php:1140
+#: ../views/transition_builder.php:482 ../views/transition_builder.php:1036
+msgid "Scale"
+msgstr "Ölçek"
+
+#: ../config/defaults.php:1132
+msgid ""
+"You can set the initial scale of this layer here which will be animated to "
+"the default (1.0) value."
+msgstr ""
+"Varsayılan (1.0) değerine animasyon olacak burada bu katmanın başlangıç ​​"
+"ölçeğini ayarlayabilirsiniz."
+
+#: ../config/defaults.php:1142
+msgid ""
+"You can set the ending scale value here, this sublayer will be animated from "
+"the default (1.0) value to yours."
+msgstr ""
+"Burada biten ölçek değerini ayarlayabilirsiniz, bu alt varsayılan sizinkine "
+"(1.0) değeri ikinci animasyon olacaktır."
+
+#: ../config/defaults.php:1152 ../views/slider_edit.php:631
+#: ../views/slider_edit_sample.php:338
+msgid ""
+"If you don't want to use this layer, but you want to keep it, you can hide "
+"it with this switch."
+msgstr ""
+"Bu katman kullanmak istemiyorum, ama bunu tutmak istiyorsanız, bu anahtarı "
+"ile gizleyebilirsiniz."
+
+#: ../config/defaults.php:1167
+msgid "Distance"
+msgstr "Uzaklık"
+
+#: ../config/defaults.php:1169
+msgid ""
+"The default value is -1 which means that the layer will be positioned "
+"exactly outside of the slide container. You can use the default setting in "
+"most of the cases. If you need to set the start or end position of the layer "
+"from further of the edges of the slide container, you can use 2, 3 or higher "
+"values."
+msgstr ""
+"Varsayılan değer katmanın slayt kabın dışında tam yerleştirilmiş olacağı "
+"anlamına gelir -1. Sen Olguların çoğunda varsayılan ayarını "
+"kullanabilirsiniz. Eğer slayt kabın kenarları daha gelen tabakanın başlangıç ​​"
+"veya bitiş konumunu ayarlamak için gerekiyorsa, 2, 3 veya daha yüksek "
+"değerleri kullanabilirsiniz."
+
+#: ../config/defaults.php:1183
+msgid ""
+"If you want to link your layer, type here the URL. You can use a hash mark "
+"followed by a number to link this layer to another slide. Example: #3 - this "
+"will switch to the third slide."
+msgstr ""
+"Eğer katmanı bağlamak istiyorsanız, burada URL'sini yazın. Sen başka bir "
+"slayta bu katmanı bağlamak için bir sayı ile takip karma işareti "
+"kullanabilirsiniz. Örnek: # 3 - Bu üçüncü slayt geçecektir."
+
+#: ../config/defaults.php:1191
+msgid "URL target"
+msgstr "URL hedef"
+
+#: ../config/defaults.php:1208
+msgid "Width"
+msgstr "Genişlik"
+
+#: ../config/defaults.php:1210
+#, php-format
+msgid ""
+"You can set the width of your layer. You can use pixels, percentage, or the "
+"default value 'auto'. Examples: 100px, 50% or auto."
+msgstr ""
+
+#: ../config/defaults.php:1218
+msgid "Height"
+msgstr "Yükseklik"
+
+#: ../config/defaults.php:1220
+#, php-format
+msgid ""
+"You can set the height of your layer. You can use pixels, percentage, or the "
+"default value 'auto'. Examples: 100px, 50% or auto"
+msgstr ""
+
+#: ../config/defaults.php:1228 ../config/defaults.php:1248
+#: ../config/defaults.php:1288 ../views/transition_builder.php:461
+#: ../views/transition_builder.php:1015
+msgid "Top"
+msgstr "Popüler"
+
+#: ../config/defaults.php:1230
+msgid ""
+"The layer position from the top of the slide. You can use pixels and "
+"percentage. Examples: 100px or 50%. You can move your layers in the preview "
+"above with a drag n' drop, or set the exact values here."
+msgstr ""
+"Sürgünün üst tabaka konumu. Sen piksel ve yüzde kullanabilirsiniz. Örnekler: "
+"100px veya 50%. Bir drag n 'drop yukarıda önizleme içinde katmanları "
+"taşımak, ya da burada kesin değerleri ayarlayabilirsiniz."
+
+#: ../config/defaults.php:1238 ../config/defaults.php:1278
+#: ../config/defaults.php:1318 ../views/transition_builder.php:464
+#: ../views/transition_builder.php:1018
+msgid "Left"
+msgstr "Sol"
+
+#: ../config/defaults.php:1240
+msgid ""
+"The layer position from the left side of the slide. You can use pixels and "
+"percentage. Examples: 100px or 50%. You can move your layers in the preview "
+"above with a drag n' drop, or set the exact values here."
+msgstr ""
+"Sürgünün sol taraftan tabaka konumu. Sen piksel ve yüzde kullanabilirsiniz. "
+"Örnekler: 100px veya 50%. Bir drag n 'drop yukarıda önizleme içinde "
+"katmanları taşımak, ya da burada kesin değerleri ayarlayabilirsiniz."
+
+#: ../config/defaults.php:1250
+msgid "Padding on the top of the layer. Example: 10px"
+msgstr "Katmanının üstünde dolgu. Örnek: 10px"
+
+#: ../config/defaults.php:1258 ../config/defaults.php:1298
+#: ../views/transition_builder.php:462 ../views/transition_builder.php:1016
+msgid "Right"
+msgstr "Sağ"
+
+#: ../config/defaults.php:1260
+msgid "Padding on the right side of the layer. Example: 10px"
+msgstr "Tabakasının sağ tarafındaki doldurma. Örnek: 10px"
+
+#: ../config/defaults.php:1268 ../config/defaults.php:1308
+#: ../views/transition_builder.php:463 ../views/transition_builder.php:1017
+msgid "Bottom"
+msgstr "Alt"
+
+#: ../config/defaults.php:1270
+msgid "Padding on the bottom of the layer. Example: 10px"
+msgstr "Tabakanın altındaki dolgu. Örnek: 10px"
+
+#: ../config/defaults.php:1280
+msgid "Padding on the left side of the layer. Example: 10px"
+msgstr "Tabakanın sol tarafında dolgu. Örnek: 10px"
+
+#: ../config/defaults.php:1290
+msgid "Border on the top of the layer. Example: 5px solid #000"
+msgstr "Tabakanın en üstüne kenarlık. Örnek: 5px solid # 000"
+
+#: ../config/defaults.php:1300
+msgid "Border on the right side of the layer. Example: 5px solid #000"
+msgstr "Tabakasının sağ tarafındaki sınır. Örnek: 5px solid # 000"
+
+#: ../config/defaults.php:1310
+msgid "Border on the bottom of the layer. Example: 5px solid #000"
+msgstr "Tabakanın alt sınır. Örnek: 5px solid # 000"
+
+#: ../config/defaults.php:1320
+msgid "Border on the left side of the layer. Example: 5px solid #000"
+msgstr "Tabakanın sol tarafında Sınır. Örnek: 5px solid # 000"
+
+#: ../config/defaults.php:1328
+msgid "Family"
+msgstr "Aile"
+
+#: ../config/defaults.php:1330
+msgid ""
+"List of your chosen fonts separated with a comma. Please use apostrophes if "
+"your font names contains white spaces. Example: Helvetica, Arial, sans-serif"
+msgstr ""
+"Bir virgül ile ayrılmış seçtiğiniz yazı tipleri listesi. Yazı tipi isimleri "
+"beyaz boşluk içeriyorsa kesme kullanın. Örnek: Helvetica, Arial, sans-serif"
+
+#: ../config/defaults.php:1338
+msgid "Size"
+msgstr "Boyut"
+
+#: ../config/defaults.php:1340
+msgid "The font size in pixels. Example: 16px."
+msgstr "Piksel yazı tipi boyutu. Örnek: 16px."
+
+#: ../config/defaults.php:1348
+msgid "Line-height"
+msgstr "Line-height"
+
+#: ../config/defaults.php:1350
+msgid ""
+"The line height of your text. The default setting is 'normal'. Example: 22px"
+msgstr ""
+"Metnin satır yüksekliği. Varsayılan ayar 'normal' olduğunu. Örnek: 22px"
+
+#: ../config/defaults.php:1358
+msgid "Color"
+msgstr "Renk"
+
+#: ../config/defaults.php:1360
+msgid ""
+"The color of your text. You can use color names, hexadecimal, RGB or RGBA "
+"values. Example: #333"
+msgstr ""
+"Metnin rengi. Sen renk adlarını, onaltılık, RGB veya RGBA değerleri "
+"kullanabilirsiniz. Örnek: # 333"
+
+#: ../config/defaults.php:1368
+msgid "Background"
+msgstr "Arka Plan"
+
+#: ../config/defaults.php:1370
+msgid ""
+"The background color of your layer. You can use color names, hexadecimal, "
+"RGB or RGBA values as well as the 'transparent' keyword. Example: #FFF"
+msgstr ""
+"Senin tabakasının arka plan rengi. Sen renk adlarını, onaltılık, RGB veya "
+"RGBA değerleri yanı sıra 'şeffaf' anahtar kelime kullanabilirsiniz. Örnek: "
+"#fff"
+
+#: ../config/defaults.php:1378
+msgid "Rounded corners"
+msgstr "Yuvarlak köşeler"
+
+#: ../config/defaults.php:1380
+msgid "If you want rounded corners, you can set its radius here. Example: 5px"
+msgstr ""
+"Eğer köşeleri yuvarlatılmış istiyorsanız, buraya onun yarıçapı "
+"ayarlayabilirsiniz. Örnek: 5px"
+
+#: ../config/defaults.php:1398
+msgid "Custom styles"
+msgstr "Özel stilleri"
+
+#: ../config/defaults.php:1400 ../views/slider_edit.php:712
+#: ../views/slider_edit_sample.php:418
+msgid ""
+"If you want to set style settings other then above, you can use here any CSS "
+"codes. Please make sure to write valid markup."
+msgstr ""
+"Eğer yukarıdaki diğer stil ayarlarını ayarlamak istiyorsanız, burada "
+"herhangi bir CSS kodlarını kullanabilirsiniz. Geçerli biçimlendirme yazmak "
+"için emin olun."
+
+#: ../config/defaults.php:1418 ../views/slider_list.php:274
+msgid "ID"
+msgstr "UID"
+
+#: ../config/defaults.php:1420
+msgid ""
+"You can apply an ID attribute on the HTML element of this layer to work with "
+"it in your custom CSS or Javascript code."
+msgstr ""
+"Sen özel CSS veya JavaScript kodunu onunla çalışmak için bu katmanın HTML "
+"öğesi bir kimlik niteliğini uygulayabilirsiniz."
+
+#: ../config/defaults.php:1428
+msgid "Classes"
+msgstr "Sınıflar"
+
+#: ../config/defaults.php:1430
+msgid ""
+"You can apply classes on the HTML element of this layer to work with it in "
+"your custom CSS or Javascript code."
+msgstr ""
+"Sen özel CSS veya JavaScript kodunu onunla çalışmak için bu katmanın HTML "
+"elemanı derslere uygulayabilirsiniz."
+
+#: ../config/defaults.php:1438
+msgid "Title"
+msgstr "Başlık"
+
+#: ../config/defaults.php:1440
+msgid ""
+"You can add a title to this layer which will display as a tooltip if someone "
+"holds his mouse cursor over the layer."
+msgstr ""
+"Birisi tabakası üzerinde onun fare imlecini tutar ise bir araç ipucu olarak "
+"gösterecektir bu katman bir başlık ekleyebilirsiniz."
+
+#: ../config/defaults.php:1448
+msgid "Alt"
+msgstr "Alt"
+
+#: ../config/defaults.php:1450
+msgid ""
+"You can add an alternative text to your layer which is indexed by search "
+"engine robots and it helps people with certain disabilities."
+msgstr ""
+"Sen arama motoru robotları tarafından endeksli sizin tabakasına alternatif "
+"bir metin ekleyebilir ve bazı engelli insanlara yardımcı olur."
+
+#: ../config/defaults.php:1458
+msgid "Rel"
+msgstr "Rel"
+
+#: ../config/defaults.php:1460
+msgid ""
+"Some plugin may use the rel attribute of a linked content, here you can "
+"specify it to make interaction with these plugins."
+msgstr ""
+"Bazı eklenti bu eklentileri ile etkileşimi yapmak için burada "
+"belirtebilirsiniz, bağlantılı içerik rel özniteliği kullanabilirsiniz."
+
+#: ../views/skin_editor.php:29 ../views/slider_edit.php:69
+#: ../views/slider_list.php:93 ../views/style_editor.php:29
+#: ../views/transition_builder.php:51
+msgid "Show on screen"
+msgstr "Ekranda göster"
+
+#: ../views/skin_editor.php:31 ../views/slider_list.php:94
+#: ../views/style_editor.php:31 ../views/transition_builder.php:53
+msgid "Tooltips"
+msgstr "Araç ipuçları"
+
+#: ../views/skin_editor.php:36 ../views/slider_edit.php:76
+#: ../views/slider_list.php:102 ../views/style_editor.php:36
+#: ../views/transition_builder.php:58
+msgid "Screen Options"
+msgstr "Ekran Seçenekleri"
+
+#: ../views/skin_editor.php:44
+msgid "LayerSlider Skin Editor"
+msgstr "LayerSlider Cilt Editör"
+
+#: ../views/skin_editor.php:45 ../views/slider_edit.php:169
+#: ../views/style_editor.php:44 ../views/transition_builder.php:508
+msgid "Back to the list"
+msgstr "Listeye dön"
+
+#: ../views/skin_editor.php:51 ../views/style_editor.php:50
+#: ../views/transition_builder.php:512
+msgid "Your changes has been saved!"
+msgstr "Yaptığınız değişiklikler kaydedildi!"
+
+#: ../views/skin_editor.php:61 ../wp/menus.php:39
+msgid "Skin Editor"
+msgstr "Cilt Editör"
+
+#: ../views/skin_editor.php:62 ../views/style_editor.php:59
+msgid "Ctrl+Q to fold/unfold a block"
+msgstr "Bir blok açılmak / katlamak için Ctrl + Q"
+
+#: ../views/skin_editor.php:64
+msgid "Choose a skin:"
+msgstr "Bir cilt seçin:"
+
+#: ../views/skin_editor.php:76
+msgid ""
+"Built-in skins will be overwritten by plugin updates. Making changes should "
+"be done through the Custom Styles Editor."
+msgstr ""
+"Dahili ciltler güncellemeleri eklentisi tarafından yazılır. Yapımı "
+"değişiklikler Özel Styles Editor yoluyla yapılmalıdır."
+
+#: ../views/skin_editor.php:81
+msgid ""
+"You need to make this file writable in order to save your changes. See the "
+"<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target="
+"\"_blank\">Codex</a> for more information."
+msgstr ""
+"Yaptığınız değişiklikleri kaydetmek için bu dosyayı yazılabilir yapmanız "
+"gerekir. Daha fazla bilgi için <a href=\"http://codex.wordpress.org/"
+"Changing_File_Permissions\" target=\"_blank\"> Kodeksi </a> bakın."
+
+#: ../views/skin_editor.php:83 ../views/slider_edit.php:839
+#: ../views/slider_list.php:550 ../views/slider_list.php:611
+#: ../views/style_editor.php:84 ../views/transition_builder.php:1068
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: ../views/skin_editor.php:84
+msgid ""
+"Modifying a skin with invalid code can break your sliders' appearance. "
+"Changes cannot be reverted after saving."
+msgstr ""
+"Geçersiz kodu ile bir cilt değiştirerek sizin Sürgü 'görünümünü kırabilir. "
+"Değişiklikler kaydettikten sonra geri alınamaz."
+
+#: ../views/slider_edit.php:116 ../views/slider_list.php:217
+msgid "Enjoy using LayerSlider?"
+msgstr "LayerSlider kullanmaktan zevk?"
+
+#: ../views/slider_edit.php:120 ../views/slider_list.php:221
+msgid ""
+"If so, please consider recommending it to your friends on your favorite "
+"social network!"
+msgstr ""
+"Eğer öyleyse, favori sosyal ağ üzerinde arkadaşlarınıza tavsiye düşünün "
+"lütfen!"
+
+#: ../views/slider_edit.php:167
+msgid "Editing slider:"
+msgstr "Düzenleme kaymak:"
+
+#: ../views/slider_edit.php:176 ../views/slider_edit_settings.php:17
+msgid "Slider Settings"
+msgstr "Kayan Resim Ayarları"
+
+#: ../views/slider_edit.php:180 ../views/slider_list.php:278
+msgid "Slides"
+msgstr "Slaytlar"
+
+#: ../views/slider_edit.php:184
+msgid "Event Callbacks"
+msgstr "Olay Callbacks"
+
+#: ../views/slider_edit.php:188
+msgid "FAQ"
+msgstr "SSS"
+
+#: ../views/slider_edit.php:192
+msgid "Documentation"
+msgstr "Dökümantasyon"
+
+#: ../views/slider_edit.php:194
+msgid "Need help? Try these:"
+msgstr "Yardıma mı ihtiyacınız var? Bunları deneyin:"
+
+#: ../views/slider_edit.php:218
+msgid "Add new slide"
+msgstr "Yeni bir slayt ekle"
+
+#: ../views/slider_edit.php:240 ../views/slider_edit_sample.php:15
+msgid "Slide Options"
+msgstr "Slayt Seçenekleri"
+
+#: ../views/slider_edit.php:270 ../views/slider_edit.php:271
+#: ../views/slider_edit.php:281 ../views/slider_edit_sample.php:35
+#: ../views/slider_edit_sample.php:36 ../views/slider_edit_sample.php:46
+#: ../views/transition_builder.php:535 ../views/transition_builder.php:554
+msgid "or"
+msgstr "VEYA"
+
+#: ../views/slider_edit.php:270 ../views/slider_edit.php:281
+#: ../views/slider_edit_sample.php:35 ../views/slider_edit_sample.php:46
+msgid "enter URL"
+msgstr "URL'sini girin"
+
+#: ../views/slider_edit.php:271 ../views/slider_edit.php:462
+#: ../views/slider_edit_sample.php:36 ../views/slider_edit_sample.php:203
+msgid "use post image"
+msgstr "sonrası görüntü kullanın"
+
+#: ../views/slider_edit.php:290 ../views/slider_edit_sample.php:55
+msgid ""
+"You can select your desired slide transitions by clicking on this button."
+msgstr "Bu düğmeye tıklayarak istediğiniz slayt geçişleri seçebilirsiniz."
+
+#: ../views/slider_edit.php:299 ../views/slider_edit.php:644
+#: ../views/slider_edit_sample.php:64 ../views/slider_edit_sample.php:351
+msgid "use post URL"
+msgstr "kullanım sonrası URL"
+
+#: ../views/slider_edit.php:319 ../views/slider_edit.php:504
+#: ../views/slider_edit_sample.php:84 ../views/slider_edit_sample.php:245
+msgid "Configure post options"
+msgstr "Sonrası seçeneklerini yapılandırma"
+
+#: ../views/slider_edit.php:320 ../views/slider_edit_sample.php:85
+msgid "Duplicate this slide"
+msgstr "Bu slaytı çoğaltmak"
+
+#: ../views/slider_edit.php:334 ../views/slider_edit_sample.php:99
+#: ../views/transition_builder.php:67 ../views/transition_builder.php:349
+#: ../views/transition_builder.php:569 ../views/transition_builder.php:901
+msgid "Preview"
+msgstr "Önizleme"
+
+#: ../views/slider_edit.php:351 ../views/slider_edit_sample.php:116
+#: ../views/transition_builder.php:77 ../views/transition_builder.php:359
+#: ../views/transition_builder.php:579 ../views/transition_builder.php:911
+msgid "Enter Preview"
+msgstr "Önizleme girin"
+
+#: ../views/slider_edit.php:361 ../views/slider_edit_sample.php:126
+msgid "Layers"
+msgstr "Katmanlar"
+
+#: ../views/slider_edit.php:361 ../views/slider_edit_sample.php:126
+msgid "timeline view"
+msgstr "zaman çizelgesi görünümü"
+
+#: ../views/slider_edit.php:389 ../views/slider_edit_sample.php:150
+msgid "Highlight layer in the editor."
+msgstr "Editörü vurgulayın katmanı."
+
+#: ../views/slider_edit.php:390 ../views/slider_edit_sample.php:151
+msgid "Prevent layer from dragging in the editor."
+msgstr "Editörü sürükleyerek bir katman önleyin."
+
+#: ../views/slider_edit.php:391 ../views/slider_edit_sample.php:152
+msgid "Hide layer in the editor."
+msgstr "Editörü gizle katmanı."
+
+#: ../views/slider_edit.php:395 ../views/slider_edit_sample.php:156
+msgid "Content"
+msgstr "İçerik"
+
+#: ../views/slider_edit.php:396 ../views/slider_edit_sample.php:157
+#: ../views/transition_builder.php:404 ../views/transition_builder.php:958
+msgid "Transition"
+msgstr "Geçiş"
+
+#: ../views/slider_edit.php:397 ../views/slider_edit_sample.php:158
+msgid "Link"
+msgstr "Bağlantı"
+
+#: ../views/slider_edit.php:398 ../views/slider_edit_sample.php:159
+msgid "Styles"
+msgstr "Stiller"
+
+#: ../views/slider_edit.php:399 ../views/slider_edit.php:721
+#: ../views/slider_edit_sample.php:160 ../views/slider_edit_sample.php:427
+msgid "Attributes"
+msgstr "Nitelikleri"
+
+#: ../views/slider_edit.php:400 ../views/slider_edit_sample.php:161
+msgid "Remove this layer"
+msgstr "Bu katmanı kaldırın"
+
+#: ../views/slider_edit.php:420 ../views/slider_edit_sample.php:169
+msgid "Image"
+msgstr "Resim"
+
+#: ../views/slider_edit.php:421 ../views/slider_edit_sample.php:170
+msgid "Text"
+msgstr "Metin"
+
+#: ../views/slider_edit.php:422 ../views/slider_edit_sample.php:171
+msgid "HTML / Video / Audio"
+msgstr "HTML / Video / Ses"
+
+#: ../views/slider_edit.php:423 ../views/slider_edit_sample.php:172
+msgid "Dynamic content from posts"
+msgstr "Görevlerinden Dinamik içerik"
+
+#: ../views/slider_edit.php:431 ../views/slider_edit_sample.php:180
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: ../views/slider_edit.php:432 ../views/slider_edit_sample.php:181
+msgid "H1"
+msgstr "H1"
+
+#: ../views/slider_edit.php:433 ../views/slider_edit_sample.php:182
+msgid "H2"
+msgstr "H2"
+
+#: ../views/slider_edit.php:434 ../views/slider_edit_sample.php:183
+msgid "H3"
+msgstr "H3"
+
+#: ../views/slider_edit.php:435 ../views/slider_edit_sample.php:184
+msgid "H4"
+msgstr "H4"
+
+#: ../views/slider_edit.php:436 ../views/slider_edit_sample.php:185
+msgid "H5"
+msgstr "H5"
+
+#: ../views/slider_edit.php:437 ../views/slider_edit_sample.php:186
+msgid "H6"
+msgstr "H6"
+
+#: ../views/slider_edit.php:460 ../views/slider_edit_sample.php:201
+msgid "Click on the image preview to open WordPress Media Library or"
+msgstr "WordPress Medya Kitaplığı veya açmak için görüntü önizleme tıklayın"
+
+#: ../views/slider_edit.php:461 ../views/slider_edit_sample.php:202
+msgid "insert from URL"
+msgstr "URL'den eklemek"
+
+#: ../views/slider_edit.php:468 ../views/slider_edit_sample.php:209
+msgid ""
+"Type here the contents of your layer. You can use any HTML codes in this "
+"field to insert content others then text. This field is also shortcode-"
+"aware, so you can insert content from other plugins as well as video embed "
+"codes."
+msgstr ""
+"Burada katmanın içeriğini yazın. Sen, metin daha sonra içerik başkalarını "
+"eklemek için bu alanda herhangi bir HTML kodlarını kullanabilirsiniz. Diğer "
+"eklentileri içerik yanı sıra video embed kodları ekleyebilirsiniz böylece bu "
+"alan, aynı zamanda Kısa kod-farkında."
+
+#: ../views/slider_edit.php:472 ../views/slider_edit_sample.php:213
+msgid "Add Media"
+msgstr "Medya ekle"
+
+#: ../views/slider_edit.php:474 ../views/slider_edit_sample.php:215
+msgid "Insert self-hosted video or audio"
+msgstr "Kendine barındırılan video veya ses eklemek"
+
+#: ../views/slider_edit.php:501 ../views/slider_edit_sample.php:242
+msgid ""
+"Click on one or more post placeholders to insert them into your layer's "
+"content. Post placeholders act like shortcodes in WP, and they will be "
+"filled with the actual content from your posts."
+msgstr ""
+"Senin katman içeriğinin içine eklemek için bir veya daha fazla mesaja yer "
+"tutucular tıklayın. Mesaj tutucuları WP kısa kod gibi hareket ve onlar mesaj "
+"gelen gerçek içeriği ile dolu olacak."
+
+#: ../views/slider_edit.php:502 ../views/slider_edit_sample.php:243
+msgid "Limit text length (if any)"
+msgstr "Sınırı metin uzunluğu (varsa)"
+
+#: ../views/slider_edit.php:549 ../views/slider_edit_sample.php:256
+msgid "Transition in"
+msgstr "Geçiş"
+
+#: ../views/slider_edit.php:588 ../views/slider_edit_sample.php:295
+msgid "Transition out"
+msgstr "Üzerinden Geçiş"
+
+#: ../views/slider_edit.php:627 ../views/slider_edit_sample.php:334
+msgid "Other options"
+msgstr "Diğer seçenekler"
+
+#: ../views/slider_edit.php:632 ../views/slider_edit_sample.php:339
+msgid ""
+"If you would like to use similar settings for other layers or to experiment "
+"on a copy, you can duplicate this layer."
+msgstr ""
+"Diğer katmanları için benzer ayarları kullanmak için veya kopya üzerinde "
+"deneme yapmak istiyorsanız, bu katmanı çoğaltabilirsiniz."
+
+#: ../views/slider_edit.php:632 ../views/slider_edit_sample.php:339
+msgid "Duplicate this layer"
+msgstr "Bu katmanı çoğaltın"
+
+#: ../views/slider_edit.php:657 ../views/slider_edit_sample.php:363
+msgid "Layout & Positions"
+msgstr "Düzen ve Pozisyonlar"
+
+#: ../views/slider_edit.php:668 ../views/slider_edit_sample.php:374
+msgid "Padding"
+msgstr "Dolgu"
+
+#: ../views/slider_edit.php:679 ../views/slider_edit_sample.php:385
+msgid "Border"
+msgstr "Sınır"
+
+#: ../views/slider_edit.php:690 ../views/slider_edit_sample.php:396
+msgid "Font"
+msgstr "Yazı"
+
+#: ../views/slider_edit.php:701 ../views/slider_edit_sample.php:407
+#: ../views/slider_edit_settings.php:26
+msgid "Misc"
+msgstr "Çeşitli"
+
+#: ../views/slider_edit.php:706 ../views/slider_edit_sample.php:412
+msgid "Word-wrap"
+msgstr "Word-wrap"
+
+#: ../views/slider_edit.php:707 ../views/slider_edit_sample.php:413
+msgid ""
+"If you use custom sized layers, you have to enable this setting to wrap your "
+"text."
+msgstr ""
+"Eğer özel boyutlu katmanları kullanırsanız, sizin metin sarmak için bu ayarı "
+"etkinleştirmek zorunda."
+
+#: ../views/slider_edit.php:711 ../views/slider_edit_sample.php:417
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: ../views/slider_edit.php:745 ../views/slider_edit_sample.php:449
+msgid "Add new layer"
+msgstr "Yeni katman ekleyin"
+
+#: ../views/slider_edit.php:758
+msgid "Fires when LayerSlider has loaded"
+msgstr "Yangınlar LayerSlider yüklendikten"
+
+#: ../views/slider_edit.php:768
+msgid "Calling when the slideshow has started."
+msgstr "Slayt başladı zaman çağrılıyor."
+
+#: ../views/slider_edit.php:778
+msgid "Calling when the slideshow is stopped by the user."
+msgstr "Slayt kullanıcı tarafından durdurulduğunda çağrılıyor."
+
+#: ../views/slider_edit.php:788
+msgid ""
+"Fireing when the slideshow is temporary on hold (e.g.: \"Pause on hover\" "
+"feature)."
+msgstr ""
+
+#: ../views/slider_edit.php:798
+msgid "Calling when the slider commencing slide change (animation start)."
+msgstr "Kaymak başlayan slayt değişim (animasyon başlangıç) zaman çağrılıyor."
+
+#: ../views/slider_edit.php:808
+msgid "Fireing when the slider finished a slide change (animation end)."
+msgstr "Kaymak slayt Değişikliklerden (animasyon ucunu) bittiğinde pişirim."
+
+#: ../views/slider_edit.php:818
+msgid "Calling when the slider will change to the previous slide by the user."
+msgstr "Kaymak kullanıcı tarafından önceki slayta değişecek çağrılıyor."
+
+#: ../views/slider_edit.php:828
+msgid "Calling when the slider will change to the next slide by the user."
+msgstr "Kaymak kullanıcı tarafından bir sonraki slayta değişecek çağrılıyor."
+
+#: ../views/slider_edit_posts.php:40
+msgid "Find posts with the filters above"
+msgstr "Yukarıda filtreleri ile mesajları bul"
+
+#: ../views/slider_edit_posts.php:59
+msgid "Don't filter categories"
+msgstr "Kategoriler filtre etmeyin"
+
+#: ../views/slider_edit_posts.php:71
+msgid "Don't filter tags"
+msgstr "Etiketlerini filtre etmeyin"
+
+#: ../views/slider_edit_posts.php:83
+msgid "Don't filter taxonomies"
+msgstr "Taksonomilerin filtre etmeyin"
+
+#: ../views/slider_edit_posts.php:111
+msgid "Order results by"
+msgstr "Sipariş sonuçlar"
+
+#: ../views/slider_edit_posts.php:112
+msgid "On this slide"
+msgstr "Bu slaytta"
+
+#: ../views/slider_edit_posts.php:124
+msgid "Get the "
+msgstr "Get "
+
+#: ../views/slider_edit_posts.php:126
+msgid "following"
+msgstr "Aşağıdaki"
+
+#: ../views/slider_edit_posts.php:131
+msgid "item in the set of matched selection"
+msgstr "eşleşen seçim kümesi öğesi"
+
+#: ../views/slider_edit_posts.php:134
+msgid "Preview from currenty matched elements"
+msgstr "Currenty eşleşti elemanları Önizleme"
+
+#: ../views/slider_edit_settings.php:9
+msgid "Type your slider name here"
+msgstr "Buraya kaymak adını yazın"
+
+#: ../views/slider_edit_settings.php:11
+msgid "e.g. homepageslider"
+msgstr "örneğin homepageslider"
+
+#: ../views/slider_edit_settings.php:20
+msgid "Layout"
+msgstr "Düzen"
+
+#: ../views/slider_edit_settings.php:21
+msgid "Slideshow"
+msgstr "Slayt gösterisi"
+
+#: ../views/slider_edit_settings.php:22 ../views/slider_edit_settings.php:256
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: ../views/slider_edit_settings.php:23
+msgid "Navigation Area"
+msgstr "Navigasyon Alan"
+
+#: ../views/slider_edit_settings.php:24
+msgid "Thumbnail Navigation"
+msgstr "Küçük resim Navigasyon"
+
+#: ../views/slider_edit_settings.php:25
+msgid "Videos"
+msgstr "Videolar"
+
+#: ../views/slider_edit_settings.php:34
+msgid "Slider dimensions"
+msgstr "Slider boyutları"
+
+#: ../views/slider_edit_settings.php:45
+msgid "Responsive mode"
+msgstr "Duyarlı modu"
+
+#: ../views/slider_edit_settings.php:56
+msgid "Full-width slider settings"
+msgstr "Tam genişlik kaymak ayarları"
+
+#: ../views/slider_edit_settings.php:72
+msgid "Other"
+msgstr "Diğer"
+
+#: ../views/slider_edit_settings.php:92
+msgid "Slideshow behavior"
+msgstr "Slayt davranış"
+
+#: ../views/slider_edit_settings.php:108
+msgid "Starting slide options"
+msgstr "Slayt Açılış seçenekleri"
+
+#: ../views/slider_edit_settings.php:119
+msgid "Slideshow navigation"
+msgstr "Slayt navigasyon"
+
+#: ../views/slider_edit_settings.php:130
+msgid "Looping"
+msgstr "Döngü"
+
+#: ../views/slider_edit_settings.php:134
+msgid ""
+"Number of loops if automatically start slideshow is enabled (0 means "
+"infinite!)"
+msgstr ""
+"Otomatik slayt gösterisi başlatmak döngüler sayısı etkindir (0 sonsuz "
+"anlamına gelir!)"
+
+#: ../views/slider_edit_settings.php:141
+msgid "Other settings"
+msgstr "Diğer ayarlar"
+
+#: ../views/slider_edit_settings.php:174
+msgid ""
+"You can change the skin of the slider. The 'noskin' skin is a border- and "
+"buttonless skin. Your custom skins will appear in the list when you create "
+"their folders as well."
+msgstr ""
+"Sen sürgünün cilt değiştirebilirsiniz. 'Noskin' ten Sınır-ve buttonless "
+"cilt. Siz de kendi klasör oluşturduğunuzda özel derileri listesinde "
+"görünecektir."
+
+#: ../views/slider_edit_settings.php:204
+msgid "Custom slider CSS"
+msgstr "Özel kaymak CSS"
+
+#: ../views/slider_edit_settings.php:214
+msgid "Show navigation buttons"
+msgstr "Gezinme düğmeleri"
+
+#: ../views/slider_edit_settings.php:230
+msgid "Navigation buttons on hover"
+msgstr "Vurgulu, navigasyon düğmeleri"
+
+#: ../views/slider_edit_settings.php:241
+msgid "Slideshow timers"
+msgstr "Slayt zamanlayıcılar"
+
+#: ../views/slider_edit_settings.php:267
+msgid "Thumbnail dimensions"
+msgstr "Küçük resim boyutları"
+
+#: ../views/slider_edit_settings.php:278
+msgid "Thumbnail appearance"
+msgstr "Küçük resim görünümü"
+
+#: ../views/slider_list.php:68
+msgid "No sliders were selected to remove."
+msgstr "Hiçbir sürgü çıkarmak için seçildi."
+
+#: ../views/slider_list.php:69
+msgid "The selected sliders were removed."
+msgstr "Seçilen kaydırıcıları çıkarıldı."
+
+#: ../views/slider_list.php:70 ../views/slider_list.php:74
+msgid "No sliders were selected."
+msgstr "Hiçbir sürgü seçildi."
+
+#: ../views/slider_list.php:71
+msgid "The selected sliders were permanently deleted."
+msgstr "Seçilen sürgü kalıcı silindi."
+
+#: ../views/slider_list.php:72
+msgid "You need to select at least 2 sliders to merge them."
+msgstr "Onları birleştirmek için en az 2 sürgü seçmeniz gerekir."
+
+#: ../views/slider_list.php:73
+msgid "The selected items were merged together as a new slider."
+msgstr "Seçilen öğeler, yeni bir kaydırıcı olarak birleştirilmiş."
+
+#: ../views/slider_list.php:75
+msgid "The selected sliders were restored."
+msgstr "Seçilen sürgü restore edildi."
+
+#: ../views/slider_list.php:77
+msgid "No sliders were found to export."
+msgstr "Hiçbir sürgü ihracat bulunmuştur."
+
+#: ../views/slider_list.php:78
+msgid "No sliders were selected to export."
+msgstr "Hiçbir sürgü ihracat seçildi."
+
+#: ../views/slider_list.php:79
+msgid "The PHP ZipArchive extension is required to import .zip files."
+msgstr "PHP ZipArchive uzantısı zip dosyaları almak için gereklidir."
+
+#: ../views/slider_list.php:81
+msgid "Choose a file to import sliders."
+msgstr "Sürgü almak için bir dosya seçin."
+
+#: ../views/slider_list.php:82
+msgid "The import file seems to be invalid or corrupted."
+msgstr "Ithalat dosyası geçersiz veya bozuk gibi görünüyor."
+
+#: ../views/slider_list.php:83
+msgid "Your slider has been imported."
+msgstr "Sizin kaymak ithal edilmiştir."
+
+#: ../views/slider_list.php:84
+msgid ""
+"Your account does not have the necessary permission you have chosen, and "
+"your settings have not been saved in order to prevent locking yourself out "
+"of the plugin."
+msgstr ""
+"Hesabınız seçtiğiniz gerekli izni yok, ve ayarları eklenti kendinizi dışarı "
+"kilitleme önlemek için kaydedilmiş değil."
+
+#: ../views/slider_list.php:85
+msgid "Permission changes has been updated."
+msgstr "İzin değişiklikler güncellendi."
+
+#: ../views/slider_list.php:86
+msgid "Your Google Fonts library has been updated."
+msgstr "Google Fonts kütüphanesi güncellendi."
+
+#: ../views/slider_list.php:87
+msgid "Your settings has been updated."
+msgstr "Sizin ayarları güncellendi."
+
+#: ../views/slider_list.php:95
+msgid "Removed sliders"
+msgstr "Kaldırılan sürgü"
+
+#: ../views/slider_list.php:97
+msgid "Sliders"
+msgstr "Sliders"
+
+#: ../views/slider_list.php:98 ../views/slider_list.php:341
+msgid "Apply"
+msgstr "Uygula"
+
+#: ../views/slider_list.php:107
+msgid "LayerSlider sliders"
+msgstr "LayerSlider sürgü"
+
+#: ../views/slider_list.php:108
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: ../views/slider_list.php:109
+msgid "Import sample sliders"
+msgstr "İthalat örnek sürgü"
+
+#: ../views/slider_list.php:123
+msgid "Using beta version"
+msgstr "Beta sürümünü kullanma"
+
+#: ../views/slider_list.php:124
+msgid "Send feedback"
+msgstr "Geribildirim gönder"
+
+#: ../views/slider_list.php:134
+msgid "Name your new slider"
+msgstr "Yeni sürgüsünü adlandırın"
+
+#: ../views/slider_list.php:136
+msgid "e.g. Homepage slider"
+msgstr "Örneğin Anasayfa kaymak"
+
+#: ../views/slider_list.php:137
+msgid "Add slider"
+msgstr "Kaymak ekleyin"
+
+#: ../views/slider_list.php:146
+msgid "Choose a demo slider to import"
+msgstr "Aktarmak için bir demo kaydırıcıyı seçin"
+
+#: ../views/slider_list.php:275
+msgid "Slider preview"
+msgstr "Slider önizleme"
+
+#: ../views/slider_list.php:276
+msgid "Name"
+msgstr "İsim"
+
+#: ../views/slider_list.php:277
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../views/slider_list.php:279
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: ../views/slider_list.php:280
+msgid "Modified"
+msgstr "Modifiye"
+
+#: ../views/slider_list.php:306
+msgid "ago"
+msgstr "önce"
+
+#: ../views/slider_list.php:310
+msgid "Duplicate this slider"
+msgstr "Bu kaydırıcıyı çoğaltın"
+
+#: ../views/slider_list.php:313
+msgid "Remove this slider"
+msgstr "Bu kaydırıcıyı Kaldır"
+
+#: ../views/slider_list.php:317
+msgid "Restore removed slider"
+msgstr "Kaldırılan sürgüsünü Restore"
+
+#: ../views/slider_list.php:326
+msgid ""
+"You haven't created any slider yet. Click on the \"Add New\" button above to "
+"add one."
+msgstr ""
+
+#: ../views/slider_list.php:333
+msgid "Bulk Actions"
+msgstr "Toplu Eylemler"
+
+#: ../views/slider_list.php:334
+msgid "Remove selected"
+msgstr "Kaldır Seçili"
+
+#: ../views/slider_list.php:335
+msgid "Delete permanently"
+msgstr "Kalıcı olarak silmek"
+
+#: ../views/slider_list.php:337
+msgid "Restore removed"
+msgstr "Restore kaldırıldı"
+
+#: ../views/slider_list.php:339
+msgid "Merge selected as new"
+msgstr "Yeni seçilmiş Birleştirme"
+
+#: ../views/slider_list.php:347
+msgid "items"
+msgstr "ürünler"
+
+#: ../views/slider_list.php:366
+msgid "Import Sliders"
+msgstr "İthalat Kaydırıcılar"
+
+#: ../views/slider_list.php:370
+msgid ""
+"Choose a LayerSlider export file downloaded previously to import your "
+"sliders. In order to import from outdated versions, you need to create a "
+"file and paste the export code into it. The file needs to have a .json "
+"extension."
+msgstr ""
+"Sizin sürgü almak için daha önce indirilen bir LayerSlider ihracat dosyası "
+"seçin. Eski sürümleri almak için, bir dosya oluşturmanız gerekir ve içine "
+"ihracat kodu yapıştırın. Dosya .json uzantısı olması gerekir."
+
+#: ../views/slider_list.php:374
+msgid "Import"
+msgstr "İçe aktar"
+
+#: ../views/slider_list.php:381
+msgid "Export Sliders"
+msgstr "İhracat Kaydırıcılar"
+
+#: ../views/slider_list.php:389
+msgid ""
+"Downloads an export file that contains your selected sliders to import on "
+"your new site. You can select multiple sliders by holding the Ctrl/Cmd "
+"button while clicking."
+msgstr ""
+"Yeni sitenizde almak için seçtiğiniz sürgü içeren bir ihracat dosyasını "
+"indirir. Sen tıklarken Ctrl / Cmd tuşunu basılı tutarak birden fazla sürgü "
+"seçebilirsiniz."
+
+#: ../views/slider_list.php:390 ../wp/menus.php:33
+msgid "All Sliders"
+msgstr "Tüm Kaydırıcılar"
+
+#: ../views/slider_list.php:402
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: ../views/slider_list.php:426
+msgid "Allow LayerSlider access to users with ..."
+msgstr "Ile kullanıcılara LayerSlider erişime izin ver ..."
+
+#: ../views/slider_list.php:431
+msgid "Role"
+msgstr "Görev Tanımı"
+
+#: ../views/slider_list.php:435
+msgid "Super Admin"
+msgstr "Süper Yönetici"
+
+#: ../views/slider_list.php:437
+msgid "Admin"
+msgstr "Yönetici"
+
+#: ../views/slider_list.php:438
+msgid "Editor, Admin"
+msgstr "Editör, Yönetici"
+
+#: ../views/slider_list.php:439
+msgid "Author, Editor, Admin"
+msgstr "Yazarı, Editör, Yönetici"
+
+#: ../views/slider_list.php:440
+msgid "Contributor, Author, Editor, Admin"
+msgstr "Katılımcı, Yazar, Editör, Yönetici"
+
+#: ../views/slider_list.php:441
+msgid "Custom"
+msgstr "Özel"
+
+#: ../views/slider_list.php:444 ../views/slider_list.php:504
+msgid "Update"
+msgstr "Güncelleme"
+
+#: ../views/slider_list.php:445
+msgid ""
+"If you want to give access for other users than admins to this page, you can "
+"specify a custom capability. You can find all the available capabilities on"
+msgstr ""
+"Bu sayfaya yöneticileri dışındaki kullanıcılara erişim vermek istiyorsanız, "
+"özel bir yeteneği belirtebilirsiniz. Sen tüm mevcut yeteneklerini "
+"bulabilirsiniz"
+
+#: ../views/slider_list.php:445
+msgid "this page"
+msgstr "Bu sayfayı"
+
+#: ../views/slider_list.php:448
+msgid "Capability"
+msgstr "Stevia'nın getirdikleri"
+
+#: ../views/slider_list.php:461
+msgid "Automatic updates & Premium support"
+msgstr "Otomatik güncellemeler ve prim desteği"
+
+#: ../views/slider_list.php:466
+msgid ""
+"It seems you've received LayerSlider by a theme. Please note that the auto-"
+"update feature only works if you've purchased the plugin directly from us on "
+"<a href=\"http://codecanyon.net/item/layerslider-responsive-wordpress-slider-"
+"plugin-/1362246\" target=\"_blank\">CodeCanyon</a>."
+msgstr ""
+
+#: ../views/slider_list.php:472
+msgid "Purchase code"
+msgstr "Satınalma kodu"
+
+#: ../views/slider_list.php:474
+msgid ""
+"To receive automatic updates, you need to enter your item purchase code. "
+"Click on the Download button next to LayerSlider WP on your CodeCanyon "
+"downloads page and choose the &quot;License certificate & purchase "
+"code&quot; option. This will download a text file that contains your "
+"purchase code."
+msgstr ""
+"Otomatik güncelleştirmeleri almak için, size öğe satın alma kodunu girmeniz "
+"gerekir. Sizin CodeCanyon indirme sayfasında bir sonraki LayerSlider WP için "
+"Yükle düğmesini tıklayın ve & quot; Lisans sertifikası ve satın alma kodu & "
+"quot; seçeneği. Bu satın alma kodu içeren bir metin dosyası indirecektir."
+
+#: ../views/slider_list.php:478
+msgid "Release channel"
+msgstr "Yayın kanalı"
+
+#: ../views/slider_list.php:480
+msgid "Stable"
+msgstr "Kararlı"
+
+#: ../views/slider_list.php:481
+msgid ""
+"Although pre-release versions meant to work properly, they might contain "
+"unknown issues, and are not recommended for sites in production."
+msgstr ""
+"Yayım öncesi sürümleri düzgün çalışması anlamına rağmen, bilinmeyen konuları "
+"içerebilir, ve üretim siteler için tavsiye edilmez."
+
+#: ../views/slider_list.php:482
+msgid "Beta"
+msgstr "Beta"
+
+#: ../views/slider_list.php:487
+msgid "Status"
+msgstr "Durum"
+
+#: ../views/slider_list.php:492
+msgid "This site is authorized to receive automatic updates."
+msgstr "Bu site otomatik güncelleştirmeleri almak için yetkilidir."
+
+#: ../views/slider_list.php:495
+msgid "This site is not yet authorized to receive plugin updates."
+msgstr "Bu site henüz eklenti güncellemeleri almak için yetkili değil."
+
+#: ../views/slider_list.php:505
+msgid "Deauthorize this site"
+msgstr "Bu siteyi yetkisini"
+
+#: ../views/slider_list.php:506
+msgid "Check for update"
+msgstr "Güncellemeleri denetle"
+
+#: ../views/slider_list.php:517
+msgid "Troubleshooting & Advanced Settings"
+msgstr "Sorun Giderme ve Gelişmiş Ayarlar"
+
+#: ../views/slider_list.php:518
+msgid ""
+"Don't change these settings without experience. LayerSlider will let you "
+"know when it encounters a problem."
+msgstr ""
+"Deneyimi olmayan bu ayarları değiştirmeyin. LayerSlider bir sorunla "
+"karşılaştığında size bildireceğiz."
+
+#: ../views/slider_list.php:524
+msgid "Use Google CDN version of jQuery"
+msgstr "JQuery Google CDN sürümünü kullanın"
+
+#: ../views/slider_list.php:526
+msgid "This option will likely solve \"Old jQuery\" issues."
+msgstr ""
+
+#: ../views/slider_list.php:529
+msgid "Include scripts in the footer"
+msgstr "Altbilgi komut dosyalarını içerir"
+
+#: ../views/slider_list.php:531
+msgid ""
+"Including resources in the footer could decrease load times, and solve other "
+"type of issues, but your theme might not support this method."
+msgstr ""
+"Altbilgi dahil kaynakları yükleme süreleri azaltmak ve sorunları diğer tip "
+"çözmek, ama tema bu yöntemi desteklemiyor olabilir olabilir."
+
+#: ../views/slider_list.php:534
+msgid "Conditional script loading"
+msgstr "Koşullu komut yükleniyor"
+
+#: ../views/slider_list.php:536
+msgid ""
+"Increase your site's performance by loading resources only when necessary. "
+"Outdated themes might not support this method."
+msgstr ""
+"Sadece gerektiğinde yükleniyor kaynaklar tarafından sitenizin performansını "
+"artırın. Modası geçmiş temalar bu yöntemi desteklemiyor olabilir."
+
+#: ../views/slider_list.php:539
+msgid "Concatenate output"
+msgstr "Concatenate çıktı"
+
+#: ../views/slider_list.php:541
+msgid ""
+"Concatenating the plugin's output could solve issues caused by custom "
+"filters your theme might use."
+msgstr ""
+"Plugin'in çıkışını bitiştirilmesi senin tema kullanabilirsiniz özel "
+"filtreler neden olduğu sorunları çözebilir."
+
+#: ../views/slider_list.php:544
+msgid "Put JS includes to body"
+msgstr "JS vücuda içerir koy"
+
+#: ../views/slider_list.php:546
+msgid ""
+"This is the most common workaround for jQuery related issues, and is "
+"recommended when you experience problems with jQuery."
+msgstr ""
+"Bu jQuery ile ilgili konularda en yaygın çözüm olduğunu ve jQuery ile "
+"sorunlarla karşılaştığınızda önerilir."
+
+#: ../views/slider_list.php:561
+msgid "Load Google Fonts"
+msgstr "Google Fontlar yükleyin"
+
+#: ../views/slider_list.php:572 ../views/slider_list.php:580
+msgid "Load only on admin interface"
+msgstr "Sadece yönetici arayüzü yük"
+
+#: ../views/slider_list.php:584
+msgid "You didn't add any Google font to your library yet."
+msgstr "Henüz kütüphane herhangi bir Google yazı eklemek vermedi."
+
+#: ../views/slider_list.php:590
+msgid "Enter a font name to add to your collection"
+msgstr "Koleksiyonunuza eklemek için bir font adı girin"
+
+#: ../views/slider_list.php:591
+msgid "Search"
+msgstr "Ara"
+
+#: ../views/slider_list.php:595
+msgid "Choose a font family"
+msgstr "Bir font ailesi seçin"
+
+#: ../views/slider_list.php:602
+msgid "Add font"
+msgstr "Yazı tipi ekle"
+
+#: ../views/slider_list.php:603
+msgid "Back to results"
+msgstr "Sonuçlara dön"
+
+#: ../views/slider_list.php:614
+msgid "Cyrillic"
+msgstr "Kiril"
+
+#: ../views/slider_list.php:615
+msgid "Cyrillic Extended"
+msgstr "Genişletilmiş Kiril"
+
+#: ../views/slider_list.php:616
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: ../views/slider_list.php:617
+msgid "Greek"
+msgstr "Yunan"
+
+#: ../views/slider_list.php:618
+msgid "Greek Extended"
+msgstr "Genişletilmiş Yunanca"
+
+#: ../views/slider_list.php:619
+msgid "Khmer"
+msgstr "Khmer"
+
+#: ../views/slider_list.php:620
+msgid "Latin"
+msgstr "Latince"
+
+#: ../views/slider_list.php:621
+msgid "Latin Extended"
+msgstr "Genişletilmiş Latin"
+
+#: ../views/slider_list.php:622
+msgid "Vietnamese"
+msgstr "Vietnamli"
+
+#: ../views/slider_list.php:628
+msgid "Select new"
+msgstr "Yeni Seçiniz"
+
+#: ../views/slider_list.php:637 ../views/slider_list.php:644
+#: ../views/slider_list.php:651
+msgid "Remove character set"
+msgstr "Karakter setini çıkarın"
+
+#: ../views/slider_list.php:656
+msgid "Use character sets:"
+msgstr "Karakter setlerini kullanabilirsiniz:"
+
+#: ../views/slider_list.php:664
+msgid "LayerSlider News"
+msgstr "LayerSlider Haberler"
+
+#: ../views/slider_list.php:666
+msgid "Filter:"
+msgstr "Filtre:"
+
+#: ../views/slider_list.php:668
+msgid "All"
+msgstr "Tümü"
+
+#: ../views/slider_list.php:669
+msgid "Announcements"
+msgstr "Duyurular"
+
+#: ../views/slider_list.php:670
+msgid "Release log"
+msgstr "Yayın günlüğü"
+
+#: ../views/slider_list.php:671
+msgid "Beta versions"
+msgstr "Beta sürümleri"
+
+#: ../views/slider_list.php:674
+msgid ">You have version"
+msgstr "> Sen sürümü var"
+
+#: ../views/slider_list.php:674
+msgid "installed"
+msgstr "yüklü"
+
+#: ../views/slider_list.php:698
+msgid "The documentation is here"
+msgstr "Belgeleri burada"
+
+#: ../views/slider_list.php:698
+msgid ""
+"This is a WordPress contextual help menu, it is used to give you fast access "
+"to our documentation. Please keep in mind that because this menu is "
+"contextual it only shows the relevant information to the page that you are "
+"currently viewing. So if you search for something else, you should visit the "
+"corresponding page first and then open this help menu."
+msgstr ""
+"Bu bizim belgelere hızlı erişim vermek için kullanılan, bir WordPress "
+"bağlamsal yardım menüsüdür. Bu menü bağlamsal çünkü sadece o anda "
+"görüntülediğiniz sayfa ilgili bilgileri gösterir aklınızda bulundurun. Eğer "
+"başka bir şey aramak Yani, ilk gelen sayfasını ziyaret etmeli ve sonra bu "
+"yardım menüsünü açın."
+
+#: ../views/style_editor.php:43
+msgid "LayerSlider CSS Editor"
+msgstr "LayerSlider CSS Editör"
+
+#: ../views/style_editor.php:58
+msgid "Contents of your custom CSS file"
+msgstr "Özel CSS dosyasının içeriği"
+
+#: ../views/style_editor.php:67
+msgid ""
+"/* You can type here any CSS code that will be loaded both on your admin and "
+"front-end pages."
+msgstr ""
+"/ * Burada yönetici ve ön-uç sayfalarda hem yüklenecek herhangi bir CSS kodu "
+"yazabilirsiniz."
+
+#: ../views/style_editor.php:69
+msgid "Let us help you by giving a few exmaple CSS classes: */"
+msgstr "Bize bir kaç xmaple CSS sınıflarını vererek size yardımcı olalım: * /"
+
+#: ../views/style_editor.php:82
+msgid ""
+"You need to make your uploads folder writable in order to save your changes. "
+"See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" "
+"target=\"_blank\">Codex</a> for more information."
+msgstr ""
+"Sen yüklenenler değişiklikleri kaydetmek için yazılabilir klasörü yapmak "
+"gerekir. Daha fazla bilgi için <a href=\"http://codex.wordpress.org/"
+"Changing_File_Permissions\" target=\"_blank\"> Kodeksi </a> bakın."
+
+#: ../views/style_editor.php:85
+msgid ""
+"Using invalid CSS code could break the appearance of your site or your "
+"sliders. Changes cannot be reverted after saving."
+msgstr ""
+"Geçersiz CSS kodu kullanarak sitenize veya sürgü görünümünü kırılabilir. "
+"Değişiklikler kaydettikten sonra geri alınamaz."
+
+#: ../views/transition_builder.php:84 ../views/transition_builder.php:366
+#: ../views/transition_builder.php:586 ../views/transition_builder.php:918
+msgid "Basic properties"
+msgstr "Temel özellikleri"
+
+#: ../views/transition_builder.php:89 ../views/transition_builder.php:371
+#: ../views/transition_builder.php:591 ../views/transition_builder.php:923
+msgid "Transition name"
+msgstr "Geçiş isim"
+
+#: ../views/transition_builder.php:90 ../views/transition_builder.php:372
+#: ../views/transition_builder.php:592 ../views/transition_builder.php:924
+msgid ""
+"The name of your custom transition. When you edit a slider, it will appear "
+"with this name, so you can easily identify the individual transitions."
+msgstr ""
+"Özel geçiş ismi. Bir kaymak düzenlemek zaman, bu isim ile görünecektir, "
+"böylece kolayca bireysel geçişleri tespit edebilirsiniz."
+
+#: ../views/transition_builder.php:93 ../views/transition_builder.php:375
+#: ../views/transition_builder.php:597 ../views/transition_builder.php:929
+msgid "Rows"
+msgstr "Satırlar"
+
+#: ../views/transition_builder.php:94 ../views/transition_builder.php:376
+#: ../views/transition_builder.php:598 ../views/transition_builder.php:930
+msgid ""
+"<i>number</i> or <i>min,max</i> If you specify a value greater than 1, "
+"LayerSlider will cut your slide into tiles. You can specify here how many "
+"rows of your transition should have. If you specify two numbers separated "
+"with a comma, LayerSlider will use that as a range and pick a random number "
+"between your values."
+msgstr ""
+"<I> sayı </ i> veya <i> min, max </ i> 1'den büyük bir değer belirtirseniz, "
+"LayerSlider karolar içine slayt kesecek. Sen geçiş kaç satır olmalıdır nasıl "
+"burada belirtebilirsiniz. Bir virgül ile ayrılmış iki sayı belirtirseniz, "
+"LayerSlider bir dizi olarak kullanan ve değerler arasında rastgele bir sayı "
+"bulacaktır."
+
+#: ../views/transition_builder.php:95 ../views/transition_builder.php:377
+#: ../views/transition_builder.php:599 ../views/transition_builder.php:931
+msgid "Cols"
+msgstr "Sütunlar"
+
+#: ../views/transition_builder.php:96 ../views/transition_builder.php:378
+#: ../views/transition_builder.php:600 ../views/transition_builder.php:932
+msgid ""
+"<i>number</i> or <i>min,max</i> If you specify a value greater than 1, "
+"LayerSlider will cut your slide into tiles. You can specify here how many "
+"columns of your transition should have. If you specify two numbers separated "
+"with a comma, LayerSlider will use that as a range and pick a random number "
+"between your values."
+msgstr ""
+"<I> sayı </ i> veya <i> min, max </ i> 1'den büyük bir değer belirtirseniz, "
+"LayerSlider karolar içine slayt kesecek. Sen geçiş birçok sütun olmalıdır "
+"nasıl burada belirtebilirsiniz. Bir virgül ile ayrılmış iki sayı "
+"belirtirseniz, LayerSlider bir dizi olarak kullanan ve değerler arasında "
+"rastgele bir sayı bulacaktır."
+
+#: ../views/transition_builder.php:101 ../views/transition_builder.php:383
+#: ../views/transition_builder.php:605 ../views/transition_builder.php:937
+msgid "Tiles"
+msgstr "Fayans"
+
+#: ../views/transition_builder.php:107 ../views/transition_builder.php:389
+#: ../views/transition_builder.php:611 ../views/transition_builder.php:943
+msgid ""
+"You can apply a delay between the tiles and postpone their animation "
+"relative to each other."
+msgstr ""
+"Sen karolar arasında bir gecikme uygulamak ve birbirlerine animasyon göreli "
+"erteleyebilirsiniz."
+
+#: ../views/transition_builder.php:108 ../views/transition_builder.php:390
+#: ../views/transition_builder.php:612 ../views/transition_builder.php:944
+msgid "Sequence"
+msgstr "Sıra"
+
+#: ../views/transition_builder.php:110 ../views/transition_builder.php:392
+#: ../views/transition_builder.php:614 ../views/transition_builder.php:946
+msgid "You can control the animation order of the tiles here."
+msgstr "Burada çini animasyon sırasını kontrol edebilirsiniz."
+
+#: ../views/transition_builder.php:111 ../views/transition_builder.php:393
+#: ../views/transition_builder.php:615 ../views/transition_builder.php:947
+msgid "Forward"
+msgstr "Ileri"
+
+#: ../views/transition_builder.php:112 ../views/transition_builder.php:394
+#: ../views/transition_builder.php:616 ../views/transition_builder.php:948
+msgid "Reverse"
+msgstr "Ters"
+
+#: ../views/transition_builder.php:113 ../views/transition_builder.php:395
+#: ../views/transition_builder.php:617 ../views/transition_builder.php:949
+msgid "Col-forward"
+msgstr "Col-ileri"
+
+#: ../views/transition_builder.php:114 ../views/transition_builder.php:396
+#: ../views/transition_builder.php:618 ../views/transition_builder.php:950
+msgid "Col-reverse"
+msgstr "Col-ters"
+
+#: ../views/transition_builder.php:115 ../views/transition_builder.php:397
+#: ../views/transition_builder.php:465 ../views/transition_builder.php:619
+#: ../views/transition_builder.php:951 ../views/transition_builder.php:1019
+msgid "Random"
+msgstr "Rastgele"
+
+#: ../views/transition_builder.php:122 ../views/transition_builder.php:626
+msgid "Depth"
+msgstr "Derinlik"
+
+#: ../views/transition_builder.php:124 ../views/transition_builder.php:628
+msgid ""
+"The script tries to identify the optimal depth for your rotated objects "
+"(tiles). With this option you can force your objects to have a large depth "
+"when performing 180 degree (and its multiplies) rotation."
+msgstr ""
+"Script döndürülmüş nesneler (fayans) için en uygun derinliği tespit etmeye "
+"çalışmaktadır. Döndürme 180 derece performans (ve onun çarpar) bu seçenek "
+"ile büyük bir derinlik var senin nesneleri zorlayabilir."
+
+#: ../views/transition_builder.php:126 ../views/transition_builder.php:630
+msgid "Large depth"
+msgstr "Büyük derinlik"
+
+#: ../views/transition_builder.php:134 ../views/transition_builder.php:642
+msgid "Before animation"
+msgstr "Animasyon önce"
+
+#: ../views/transition_builder.php:136 ../views/transition_builder.php:272
+#: ../views/transition_builder.php:644 ../views/transition_builder.php:802
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../views/transition_builder.php:144 ../views/transition_builder.php:201
+#: ../views/transition_builder.php:280 ../views/transition_builder.php:652
+#: ../views/transition_builder.php:722 ../views/transition_builder.php:810
+msgid ""
+"The duration of your animation. This value is in millisecs, so the value "
+"1000 means 1 second."
+msgstr ""
+"Animasyonunuzun süresi. Bu değer millisecs olarak, yani 1000 değeri 1 saniye "
+"anlamına gelir."
+
+#: ../views/transition_builder.php:180 ../views/transition_builder.php:256
+#: ../views/transition_builder.php:316 ../views/transition_builder.php:536
+#: ../views/transition_builder.php:555 ../views/transition_builder.php:701
+#: ../views/transition_builder.php:782 ../views/transition_builder.php:859
+msgid "Add new"
+msgstr "Yeni ekle"
+
+#: ../views/transition_builder.php:182 ../views/transition_builder.php:258
+#: ../views/transition_builder.php:318 ../views/transition_builder.php:703
+#: ../views/transition_builder.php:784 ../views/transition_builder.php:861
+msgid "Scale3D"
+msgstr "Scale3D"
+
+#: ../views/transition_builder.php:194 ../views/transition_builder.php:715
+msgid "Animation"
+msgstr "Canlandırma"
+
+#: ../views/transition_builder.php:236 ../views/transition_builder.php:458
+#: ../views/transition_builder.php:757 ../views/transition_builder.php:1012
+msgid "Direction"
+msgstr "Yönlendirme"
+
+#: ../views/transition_builder.php:238 ../views/transition_builder.php:759
+msgid "The direction of rotation."
+msgstr "Dönme yönü."
+
+#: ../views/transition_builder.php:239 ../views/transition_builder.php:760
+msgid "Vertical"
+msgstr "Dikey"
+
+#: ../views/transition_builder.php:240 ../views/transition_builder.php:761
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: ../views/transition_builder.php:270 ../views/transition_builder.php:800
+msgid "After animation"
+msgstr "Animasyon sonra"
+
+#: ../views/transition_builder.php:329 ../views/transition_builder.php:488
+#: ../views/transition_builder.php:872 ../views/transition_builder.php:1042
+msgid "Transition options"
+msgstr "Geçiş seçenekleri"
+
+#: ../views/transition_builder.php:335 ../views/transition_builder.php:494
+#: ../views/transition_builder.php:878 ../views/transition_builder.php:1048
+msgid "Remove transition"
+msgstr "Geçiş Kaldır"
+
+#: ../views/transition_builder.php:410 ../views/transition_builder.php:964
+msgid ""
+"The duration of the animation. This value is in millisecs, so the value 1000 "
+"measn 1 second."
+msgstr ""
+"Animasyon süresi. Bu değer millisecs olduğunu, bu yüzden değeri 1000 measn 1 "
+"saniye."
+
+#: ../views/transition_builder.php:452 ../views/transition_builder.php:1006
+msgid "The type of the animation, either slide, fade or both (mixed)."
+msgstr "Animasyon türü, slayt, solmaya veya her ikisi (karışık) ya."
+
+#: ../views/transition_builder.php:453 ../views/transition_builder.php:1007
+msgid "Slide"
+msgstr "Kaydırak"
+
+#: ../views/transition_builder.php:455 ../views/transition_builder.php:1009
+msgid "Mixed"
+msgstr "Karışık"
+
+#: ../views/transition_builder.php:460 ../views/transition_builder.php:1014
+msgid ""
+"The direction of the slide or mixed animation if you've chosen this type in "
+"the previous settings."
+msgstr ""
+"Slayt veya karışık animasyon yönü eğer önceki ayarlarında bu tür seçtiniz."
+
+#: ../views/transition_builder.php:466 ../views/transition_builder.php:1020
+msgid "Top left"
+msgstr "Üst sol"
+
+#: ../views/transition_builder.php:467 ../views/transition_builder.php:1021
+msgid "Top right"
+msgstr "Üst sağ"
+
+#: ../views/transition_builder.php:468 ../views/transition_builder.php:1022
+msgid "Bottom left"
+msgstr "Alt sol"
+
+#: ../views/transition_builder.php:469 ../views/transition_builder.php:1023
+msgid "Bottom right"
+msgstr "Alt sağ"
+
+#: ../views/transition_builder.php:480 ../views/transition_builder.php:1034
+msgid "RotateZ"
+msgstr "RotateZ"
+
+#: ../views/transition_builder.php:507
+msgid "LayerSlider Transition Builder"
+msgstr "LayerSlider Geçiş Oluşturucu"
+
+#: ../views/transition_builder.php:523
+msgid "3D transitions"
+msgstr "3D geçişler"
+
+#: ../views/transition_builder.php:525 ../views/transition_builder.php:544
+msgid "Choose:"
+msgstr "Seçin:"
+
+#: ../views/transition_builder.php:532
+msgid "No 3D transitions yet"
+msgstr "Henüz 3D geçişler"
+
+#: ../views/transition_builder.php:542
+msgid "2D transitions"
+msgstr "2D geçişler"
+
+#: ../views/transition_builder.php:551
+msgid "No 2D transitions yet"
+msgstr "Henüz 2D geçişler"
+
+#: ../views/transition_builder.php:887
+msgid "You didn't create any 3D transitions yet"
+msgstr "Henüz herhangi bir 3D geçişler yaratmadı"
+
+#: ../views/transition_builder.php:888 ../views/transition_builder.php:1058
+msgid "To create a new transition, click to the \\\"Add new\\\" button above."
+msgstr ""
+
+#: ../views/transition_builder.php:1057
+msgid "You didn't create any 2D transitions yet"
+msgstr "Henüz herhangi bir 2D geçişler yaratmadı"
+
+#: ../views/transition_builder.php:1070
+msgid ""
+"Before you can save your changes, you need to make your \"/wp-content/uploads"
+"\" folder writable. See the <a href=\"http://codex.wordpress.org/"
+"Changing_File_Permissions\" target=\"_blank\">Codex</a>"
+msgstr ""
+
+#: ../views/transition_builder.php:1094
+msgid "Transition Builder documentation"
+msgstr "Geçiş Oluşturucu dokümantasyon"
+
+#: ../views/transition_builder.php:1094
+msgid ""
+"To get started with the LayerSlider WP Transition Builder, please read our "
+"documentation by clicking on this \"Help\" menu item."
+msgstr ""
+
+#: ../wp/actions.php:517 ../wp/actions.php:543
+msgid ""
+"It looks like your files isn't writable, so PHP couldn't make any changes "
+"(CHMOD)."
+msgstr ""
+"Senin dosyalar yazılabilir değil gibi görünüyor, bu yüzden PHP herhangi bir "
+"değişiklik (CHMOD) gelemedi."
+
+#: ../wp/actions.php:517 ../wp/actions.php:543
+msgid "Cannot write to file"
+msgstr "Dosyaya yazamazsınız"
+
+#: ../wp/actions.php:531
+msgid "It looks like you haven't selected any skin to edit."
+msgstr "Eğer düzenlemek için herhangi bir cilt seçmediniz gibi görünüyor."
+
+#: ../wp/actions.php:531
+msgid "No skin selected."
+msgstr "Ciltte herhangi bir seçilmedi."
+
+#: ../wp/menus.php:45
+msgid "CSS Editor"
+msgstr "CSS Editör"
+
+#: ../wp/menus.php:50
+msgid "Transition Builder"
+msgstr "Geçiş Oluşturucu"
+
+#: ../wp/notices.php:34
+msgid "An update is available for LayerSlider WP!"
+msgstr "Bir güncelleme LayerSlider WP için mevcuttur!"
+
+#: ../wp/notices.php:36
+#, php-format
+msgid "You have version %1$s. Update to version %2$s."
+msgstr "Sen versiyonu var %1$s . Version güncelleme %2$s ."
+
+#: ../wp/notices.php:39
+msgid "Review changes & Install"
+msgstr "Değişiklikleri yorumlayan & Yükle"
+
+#: ../wp/notices.php:52
+msgid "The new version of LayerSlider WP is almost ready!"
+msgstr "LayerSlider WP yeni sürümü neredeyse hazır!"
+
+#: ../wp/notices.php:54
+msgid ""
+"For a faster and more reliable solution, LayerSlider WP needs to convert "
+"your data associated with the plugin. Your sliders and settings will remain "
+"still, and it only takes a click on this button."
+msgstr ""
+"Daha hızlı ve daha güvenilir bir çözüm için, LayerSlider WP eklentisi ile "
+"ilişkili verileri dönüştürmek gerekiyor. Sizin sürgü ve ayarlar kalır ve "
+"yalnızca bu düğmeye bir tıklama alır."
+
+#: ../wp/notices.php:57
+msgid "Convert Data"
+msgstr "Veri dönüştürme"
+
+#: ../wp/notices.php:69
+msgid "Server configuration issues detected!"
+msgstr "Sunucu yapılandırması sorunları tespit!"
+
+#: ../wp/notices.php:71
+msgid ""
+"phpQuery, an external library in LayerSlider, have unmet dependencies. It "
+"requires PHP5 with the following extensions installed: PHP DOM extension, "
+"PHP Multibyte String extension. Please contact with your hosting provider to "
+"resolve these dependencies, as it will likely prevent LayerSlider from "
+"functioning properly."
+msgstr ""
+"phpQuery, LayerSlider harici kütüphane, karşılanmamış bağımlılıkları var. "
+"PHP DOM uzantısı PHP Multibyte Dize uzantısı: yüklü aşağıdaki uzantıları ile "
+"PHP5 gerektirir. Büyük olasılıkla düzgün çalışmasını LayerSlider önleyecek "
+"şekilde, bu bağımlılıkları gidermek için hosting sağlayıcı ile irtibata "
+"geçiniz."
+
+#: ../wp/notices.php:72
+msgid "This issue could result a blank page in slider builder."
+msgstr "Bu sorun kaymak üreticisi boş bir sayfa neden olabilir."
+
+#: ../wp/notices.php:83
+msgid "Would you like to receive automatic updates and premium support?"
+msgstr "Otomatik güncelleştirmeleri ve prim desteği almak ister misiniz?"
+
+#: ../wp/notices.php:85
+msgid ""
+"By activating the plugin with your Item Purchase Code you can receive update "
+"notifications with one-click installation and better support services. This "
+"is optional and not needed if you've received LayerSlider bundled with a "
+"theme."
+msgstr ""
+"Sizin Ürün Satınalma Kanunu eklentisi devreye sokarak tek tıklama kurulum ve "
+"daha iyi destek hizmetleri ile güncelleme bildirimleri alabilirsiniz. Eğer "
+"alınan LayerSlider bir tema ile birlikte oldum eğer bu isteğe ve gerekli "
+"değildir."
+
+#: ../wp/shortcodes.php:10
+msgid "Invalid shortcode"
+msgstr "Geçersiz Kısa kod"
+
+#: ../wp/shortcodes.php:18
+msgid "Slider not found"
+msgstr "Slider bulunamadı"
+
+#: ../wp/widgets.php:10
+msgid "Insert a slider with LayerSlider WP Widget"
+msgstr "LayerSlider WP Widget ile bir kaymak yerleştirin"
+
+#: ../wp/widgets.php:12
+msgid "LayerSlider WP Widget"
+msgstr "LayerSlider WP Widget"
+
+#: ../wp/widgets.php:33
+msgid "LayerSlider"
+msgstr "LayerSlider"
+
+#: ../wp/widgets.php:39
+msgid "Choose a slider:"
+msgstr "Bir kaydırıcı seçin:"
+
+#: ../wp/widgets.php:52
+msgid "You didn't create any slider yet."
+msgstr "Henüz herhangi bir sürgü yaratmadı."
+
+#: ../wp/widgets.php:56
+msgid "Title:"
+msgstr "Başlık:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The timing function of the animation to manipualte the layer's movement. "
+#~ "Click on the link next to this field to open easings.net for examples and "
+#~ "more information"
+#~ msgstr ""
+#~ "The timing function of the animation. With this function you can "
+#~ "manipualte the movement of the animated object. Please click on the link "
+#~ "next to this select field to open easings.net for more information and "
+#~ "real-time examples."

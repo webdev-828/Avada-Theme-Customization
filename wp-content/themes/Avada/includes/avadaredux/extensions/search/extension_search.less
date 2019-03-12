@@ -1,0 +1,37 @@
+.avadaredux_field_search {
+    position: absolute;
+    width: 250px !important;
+    right: 30px;
+    padding: 4px 7px;
+}
+.avadaredux-has-sections {
+    .avadaredux_field_search {
+        right: 10px;
+    }
+}
+.avadaredux-main.avadaredux-search {
+
+    .avadaredux-section-field, .avadaredux-info-field, .avadaredux-notice-field, .avadaredux-container-group,
+    .avadaredux-container-raw, .avadaredux-section-desc, .avadaredux-group-tab h3, .hr, .avadaredux-field-info, tr {
+        display: none;
+    }
+    #import_export_default_section_group, #dev_mode_default_section_group {
+        display:none !important;
+    }
+
+    .avadaredux-group-tab {
+        margin-bottom: 0;
+    }
+    .avadaredux-group-tab .form-table-section-indented {
+        margin-left: 0 !important;
+        width: 100%;
+
+        .avadaredux-group-tab .form-table-section tr:first-of-type th:first-of-type {
+          padding: inherit !important;
+        }
+        .avadaredux-group-tab h3 {
+          margin-top: inherit !important;
+        }
+
+    }
+}

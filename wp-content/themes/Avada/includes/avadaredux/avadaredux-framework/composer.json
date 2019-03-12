@@ -1,0 +1,21 @@
+{
+  "name": "avadaredux-framework/avadaredux-framework",
+  "version": "3.5.9",
+  "authors": [
+    {
+      "name": "Team AvadaRedux"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "description": "AvadaRedux is a simple, truly extensible options framework for WordPress themes and plugins.",
+  "homepage": "http://avadareduxframework.com",
+  "license": "GPL-3.0+",
+  "keywords": ["settings", "wordpress", "options", "framework", "avadaredux", "customizer", "plugin"],
+  "support": {
+   	"issues": "https://github.com/avadareduxframework/avadaredux-framework/issues"
+  },
+  "require" : {
+    "php" : ">=5.2.0",
+    "composer/installers": "~1.0"
+  }
+}

@@ -1,0 +1,19 @@
+## General
+.cvs
+.htaccess
+.svn
+*.bak
+*.log
+*.swp
+
+## Windows
+Desktop.ini
+Thumbs.db
+
+## Mac
+.DS_Store
+
+## Grunt
+.sass-cache
+.sass-cache/*
+node_modules

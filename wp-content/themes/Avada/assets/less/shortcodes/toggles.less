@@ -1,0 +1,109 @@
+@accordian-border-color: #E5E4E3;
+@accordian-border: 1px solid @accordian-border-color;
+
+.fusion-accordian {
+	width: 100%;
+
+	.fusion-panel {
+		box-shadow: none;
+		border: none;
+		border-bottom: @accordian-border;
+		.border-radius( 0 );
+	}
+	
+	.panel-heading {
+		padding: 0;
+		background: none;
+		
+		.panel-title {
+			margin: 0;
+		}
+	}
+	
+	.panel-title {
+		position: relative;
+		line-height: 22px;
+		font-size: 16px;
+		font-weight: normal;
+		color: inherit;
+
+		a {
+			display: block;
+			padding: 10px 0;
+			text-decoration: none;
+			
+			&:hover {
+				color: @primary-color;
+
+				.fa-fusion-box {
+					background-color: @primary-color;
+				}
+			}
+			
+			.fa.pull-left {
+				margin-left: 1px;
+			}
+			
+			.fa-fusion-box {
+				display: inline-block;
+				vertical-align: middle;
+				width: 22px;
+				height: 22px;
+   				background-color: #333;
+   				font-size: 13px;
+   				color: #fff;
+   				text-align: center;
+   				line-height: 22px;
+   				font-family: 'IcoMoon';
+   				
+   				-webkit-font-smoothing: subpixel-antialiased;
+   					
+   				&:before {
+   					font-family: 'IcoMoon';
+   					content: "\e61d";
+   					font-style: normal;
+   					line-height: 22px;
+   					font-size: 13px;
+   				}
+			}
+		}
+		
+		.active {
+			.fa-fusion-box {
+				background-color: @primary-color;
+				
+				&:before {
+					content: "\e61c"; //&ndash; specail HTML char
+				}
+			}
+		}
+		
+		.fusion-toggle-icon-wrapper {
+			float: left;
+		}		
+		
+		.fusion-toggle-heading {
+			margin-left: 40px;
+		}
+	}
+	
+	.panel-body {
+		padding: 10px 0 15px 0px;
+		border: none;
+		line-height: normal;
+	}
+	
+	.fusion-panel.fusion-toggle-no-divider {
+		border-bottom: none;
+		
+		.panel-title {
+			a {
+				padding: 10px 0;
+			}
+		}
+	}
+}
+
+.fusion-single-accordian {
+	margin-bottom: 0px;
+}

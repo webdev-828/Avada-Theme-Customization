@@ -1,0 +1,725 @@
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+    0% { -o-transform: rotate(0deg); }
+    100% { -o-transform: rotate(359deg); }
+}
+
+@-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}
+@-webkit-keyframes fadeInUp{
+	0% { opacity:0; -webkit-transform:translateY(20px);}
+	100% { opacity:1; -webkit-transform:translateY(0);}
+}
+@-moz-keyframes fadeInUp{
+	0% { opacity:0; -moz-transform:translateY(20px);}
+	100% { opacity:1; -moz-transform:translateY(0);}
+}
+@-o-keyframes fadeInUp{
+	0% { opacity:0; -o-transform:translateY(20px);}
+	100% { opacity:1; -o-transform:translateY(0);}
+}
+@keyframes fadeInUp{
+	0% { opacity:0; transform:translateY(20px);}
+	100% { opacity:1; transform:translateY(0);}
+}
+
+.updated,
+.error,
+#setting-error-tgmpa {
+	display: block !important;
+	max-width: calc(100% - 250px);
+}
+
+#wpbody-content .avada-wrap .fusion-upgrade-notices {
+  display: block !important;
+}
+
+.avada-wrap .avada-logo {
+	background: #fff url(../images/logo.png) no-repeat center;
+	border: none;
+	padding-top: 80px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	margin: 5px 0 0;
+	display: inline-block;
+	width: 150px;
+	text-rendering: optimizeLegibility;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.avada-version {
+	margin-top: 30px;
+	display: block;
+	padding: 10px 0;
+	background: #A0CE4E;
+	color: #fff;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.about-wrap .about-text {
+	margin-bottom: 55px;
+}
+.avada-registration-steps h3 {
+    font-size: 1em;
+    margin: 1.4em 0 0.6em;
+	font-weight: normal;
+}
+.avada-thanks{
+	float: left;
+	width: 100%;
+}
+.avada-thanks p {
+	padding: 20px 0;
+}
+.avada-important-notice {
+	padding: 30px;
+	background: #fff;
+	margin: 0px 0px 30px;
+}
+.registration-form-container {
+	float: left;
+	width: 95%;
+	margin-bottom: 0;
+}
+.avada-large-button.avada-register {
+	float: left;
+	margin-right: 10px;
+}
+.avada-loader > i.loader-icon {
+	display: inline-block !important;
+	font-size: 32px;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+span.avada-loader {
+	display: none;
+}
+.avada-important-notice .about-description {
+	font-size: 17px;
+  margin: 0;
+}
+.registration-form-container .dashicons {
+	display: block;
+	float: left;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 42px;
+	text-align: left;
+}
+
+.registration-form-container .about-description {
+	margin-bottom: 20px;
+}
+
+.wrap.about-wrap.avada-wrap .nav-tab-wrapper {
+	margin-bottom: 30px;
+}
+.avada-important-notice p.notice-description {
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+.avada-large-button {
+	padding: 15px 20px !important;
+	height: 40px !important;
+	line-height: 7px !important;
+}
+
+.avada-wrap.about-wrap .feature-section .col {
+	margin-top: 0;
+}
+
+.avada-registration-steps .feature-section {
+	border-bottom: none;
+}
+
+.avada-registration-steps .feature-section div {
+	margin-bottom: 15px;
+}
+.avada-registration-steps .four-col > div {
+	float: left;
+	margin-right: 5%;
+	width: 21.25%;
+}
+.avada-demo-themes .feature-section.theme-browser.rendered {
+	overflow: visible;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.avada-registration-steps h3 > span {
+	margin-right: 10px;
+}
+
+.theme-browser .theme .theme-screenshot img {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+.theme-browser .theme .theme-screenshot:after {
+	padding-top: 74.9%;
+}
+
+.screenshot-hover{
+	position: absolute;
+	border: 1px solid #E4E4E4;
+	display: none;
+	color: #fff;
+	top: -240px;
+	left: 175px;
+	width: 460px;
+	z-index: 999;
+	border: 10px solid #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: -2px 1px 54px rgba(23,24,25,.14);
+	-moz-box-shadow: -2px 1px 54px rgba(23,24,25,.14);
+	-webkit-box-shadow: -2px 1px 54px rgba(23,24,25,.14);
+}
+.avada-demo-themes .theme:nth-child(3n) .screenshot-hover {
+	left: -380px;
+}
+.avada-demo-themes .theme:hover .screenshot-hover {
+	display: block;
+}
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.fusion-animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+.theme:hover .fusion-animated {
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-ms-animation-play-state: running;
+	-o-animation-play-state: running;
+	animation-play-state: running;
+}
+.fusion-animated {
+	visibility: hidden;
+}
+.demo-import-loader {
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display:none;
+}
+.demo-import-loader i {
+	text-align: center;
+	display: inline-block;
+	margin: -16px auto 0 auto;
+	height: 32px;
+	width: 32px;
+	top: 50%;
+	position: relative;
+	font-size: 32px;
+	line-height: 32px;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+.success-icon i {
+	margin: -20px auto 0 auto;
+	height: 40px;
+	width: 40px;
+	font-size: 40px;
+	font-size: 40px;
+	-moz-animation: none;
+	-o-animation: none;
+	-webkit-animation: none;
+	animation: none;
+}
+.warning-icon i {
+	-moz-animation: none;
+	-o-animation: none;
+	-webkit-animation: none;
+	animation: none;
+}
+.avada-install-plugins .theme-name {
+	line-height: 1.3em;
+}
+
+.avada-install-plugins .theme-screenshot,
+.avada-install-plugins .theme-name,
+.avada-install-plugins .theme-update,
+.avada-install-plugins .plugin-info {
+	cursor: auto;
+}
+
+.avada-install-plugins .plugin-info {
+	position: absolute;
+	top: 77%;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+}
+
+.plugin-required {
+	background: rgba(213,78,33,.95);
+	text-transform: uppercase;
+	color: #fff;
+	padding: 5px;
+	position: absolute; top: 85px;
+}
+
+.avada-install-plugins .theme-screenshot img {
+	opacity: 1 !important;
+	cursor: auto;
+}
+
+.avada-install-plugins .theme-browser .theme .theme-actions, .avada-demo-themes .theme-browser .theme .theme-actions {
+	opacity: 1;
+}
+
+.avada-system-status table {
+	margin-bottom: 20px;
+}
+
+.avada-system-status mark.error {
+	color: #a00;
+	background: 0;
+}
+
+.avada-system-status mark.yes {
+	color: #7ad03a;
+	background: 0;
+}
+
+.avada-system-status table tr:nth-child(2n) td, .avada-system-status table tr:nth-child(2n) th {
+	background: #fcfcfc;
+}
+
+.avada-system-status table td:first-child {
+	width: 33%;
+}
+
+.avada-system-status table td.help {
+	width: 1em;
+}
+
+.avada-system-status table th {
+	font-weight: 700;
+	padding: 9px;
+}
+
+#debug-report {
+	display: none;
+}
+
+#debug-report textarea {
+	font-family: monospace;
+	width: 100%;
+	margin: 0;
+	height: 300px;
+	padding: 20px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	resize: none;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+}
+
+.avada-wrap .fusion-system-status-debug .system-report-msg {
+	padding: 0 10px;
+}
+
+
+
+.avada-importer-issue, .avada-importer-current-value, .avada-importer-recommended-value, .avada-importer-fix {
+	width: 25%;
+	display: inline-block;
+}
+
+#wpwrap .avada-demo-themes .theme-browser {
+	margin: 0 -1.5%;
+	float: none;
+	width: auto;
+}
+
+#wpwrap .avada-demo-themes .theme-browser .theme {
+	margin: 0 0 3% 0;
+	padding: 0 1.5%;
+	width: 33.33333%;
+	border: none;
+	box-shadow: none;
+}
+
+#wpwrap .avada-demo-themes .theme-browser .theme-wrapper {
+    position: relative;
+    border: 1px solid #dedede;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 2000px) {
+	#wpwrap .avada-demo-themes .theme-browser .theme {
+		padding: 0 1.5%;
+		width: 33.33333%;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	#wpwrap .avada-demo-themes .theme-browser .theme  {
+		padding: 0 2.5%;
+		width: 50%;
+	}
+
+	#wpwrap .avada-demo-themes .theme-browser {
+		margin: 0 -2.5%;
+	}
+}
+
+@media screen and (max-width: 620px){
+	#wpwrap .avada-demo-themes .theme-browser .theme {
+		padding: 0;
+		width: 100%;
+	}
+
+	#wpwrap .avada-demo-themes .theme-browser {
+		margin: 0;
+	}
+
+	.avada-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.avada-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.updated,
+	.error,
+	#setting-error-tgmpa {
+		max-width: none;
+	}
+
+	.avada-wrap .avada-logo {
+		display: block;
+		position:relative;
+		margin:0 auto 50px auto;
+	}
+	.about-wrap h2 .nav-tab {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.about-wrap h2.nav-tab-wrapper {
+		padding: 0;
+		width: 100%;
+	}
+	.avada-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.avada-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+}
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+		border-bottom-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner {
+		border-top-color: rgba(20,20,20,0.92);
+	}
+}
+
+/* RTL */
+.rtl .avada-wrap h1 {
+	font-weight: normal;
+}
+
+.rtl .avada-logo {
+	left: 0;
+	right: auto;
+}
+.rtl .avada-registration-steps .four-col > div {
+	float: right;
+	margin-left: 5%;
+	margin-right: 0;
+}
+.rtl .avada-registration-steps .four-col > .last-feature {
+	margin-left: 0;
+}
+.rtl .avada-registration-steps h4 > span {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.rtl .avada-demo-themes .theme {
+	width: 31%;
+	margin: 0 0 3% 3%;
+}
+
+.rtl .avada-demo-themes .theme:nth-child(3n) {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 1120px) {
+	.rtl .theme-browser .theme:nth-child(odd) {
+		margin-left: 5% !important;
+		margin-right: 0 !important;
+	}
+
+	.rtl .theme-browser .theme {
+		width: 47.5% !important;
+		margin-left: auto !important;
+	}
+}
+@media screen and (max-width: 620px){
+	.rtl .theme-browser .theme {
+		width: 100% !important;
+		margin-left: 0;
+	}
+}
+
+.avada-auto-patcher.description {
+  background-color: #f1f1f1;
+  font-size: 1.1em;
+  padding: 1em;
+  font-style: normal;
+}
+
+.avada-auto-patcher.learn-more {
+  float: right;
+}
+
+.avada-patcher-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+
+.avada-patcher-table .avada-patcher-headings th,
+.avada-patcher-table .avada-patcher-headings td {
+  border-top: none !important;
+  text-transform: uppercase;
+}
+
+.avada-patcher-table > thead tr th,
+.avada-patcher-table > thead tr td,
+.avada-patcher-table > tbody tr th,
+.avada-patcher-table > tbody tr td,
+.avada-patcher-table > tfoot tr th,
+.avada-patcher-table > tfoot tr td {
+  padding: 15px 10px 5px;
+  line-height: 1.5;
+  vertical-align: top;
+  border-top: 1px solid #dedede;
+  text-align: left;
+}
+.avada-patcher-table > tbody tr .patch-status {
+	text-align: center;
+}
+.avada-patcher-table > tbody tr .patch-apply .button {
+	float: right;
+}
+.avada-patcher-table > thead > tr > th {
+  vertical-align: baseline;
+  border-bottom: 2px solid #dedede;
+}
+
+.avada-patcher-table > caption + thead > thead:first-child > tr:first-child > th,
+.avada-patcher-table > caption + thead > thead:first-child > tr:first-child > td,
+.avada-patcher-table > colgroup + thead > thead:first-child > tr:first-child > th,
+.avada-patcher-table > colgroup + thead > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.avada-patcher-table > tbody + tbody {
+  border-top: 2px solid @table-border-color;
+}
+
+.avada-patcher-table td.patch-date {
+  min-width: 100px;
+}
+
+.avada-patcher-table td > p {
+  margin-top: 0;
+}
+
+.avada-patcher-table td p.submit {
+  margin: 0;
+  padding: 0;
+}
+
+.avada-patcher-table td {
+  border-left: none;
+  border-right: none;
+}

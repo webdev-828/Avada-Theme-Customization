@@ -1,0 +1,85 @@
+/* =================================================================================================
+Table of Contents
+----------------------------------------------------------------------------------------------------
+	01 General WPML Styles
+	02 Language Switcher Widget Styles
+	03 Language Switcher Footer Styles
+	
+================================================================================================= */
+
+/* General WPML Styles
+================================================================================================= */
+.widget_icl_lang_sel_widget {
+	z-index: 999;
+	
+	&:after {
+		content: "";
+		display: table;
+		clear: both;	
+	}
+	
+	li a {
+		background-image: none;
+	}	
+}
+
+.qtrans_flag_and_text {
+	background-position: center right;
+}
+
+.fusion-body {
+	a {
+		.iclflag {
+			vertical-align: middle;
+			
+		}
+	}
+}
+
+/* Language Switcher Widget Styles
+================================================================================================= */
+#lang_sel,
+#lang_sel_click {
+	display: block;
+
+	> ul {
+		a {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 22px;
+		}
+	
+		ul {
+			z-index: 999;
+			top: 32px;
+			width: 100%;
+		}
+	}
+
+	li {
+		width: 100%;
+	}
+	
+	img.iclflag {
+		top: 0;
+		margin-right: 3px;
+		
+		.rtl & {
+			margin-left: 3px;
+			margin-right: 0;
+		}
+	}		
+	
+}
+
+/* Language Switcher Footer Styles
+================================================================================================= */
+#lang_sel_footer {
+	ul {
+		li {
+			.iclflag {
+				top: 0px;
+			}			
+		}
+	}
+}

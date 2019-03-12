@@ -1,0 +1,117 @@
+/* slidingbar */
+#slidingbar-area {
+	z-index: 99999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.admin-bar #wrapper #slidingbar-area {
+	top: 32px;
+}
+#slidingbar {
+	height: auto;
+	color: #8c8989;
+	background: #363839;
+	background: rgba(54, 56, 57, 0.9);
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+	padding: 35px 10px;
+}
+.sb-toggle-wrapper {
+	position: absolute;
+	right: 0;
+
+	border-top: 35px solid #363839;
+	border-left: 35px solid transparent;
+
+	.sb-toggle {
+		&:after{
+			font-family: "IcoMoon";
+			content: @slidingbar-plus;
+			font-size: 16px;
+			-webkit-font-smoothing: antialiased;
+			display: block;
+			position: absolute;
+			left: -17px;
+			top: -33px;
+			line-height: normal;
+			color: #fff;
+			text-shadow: none;
+		}
+	}
+}
+
+.sb-toggle.open:after {
+	content: @slidingbar-minus;
+	-webkit-font-smoothing: antialiased;
+}
+.fusion-slidingbar-widget-column {
+	margin-bottom: 50px;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+#slidingbar-area .logo {
+	float: none;
+	display: block;
+	margin: 0 0 22px;
+}
+#slidingbar-area h3,
+#slidingbar-area .widget-title {
+	margin: 0 0 28px;
+	color: #ddd;
+	text-transform: uppercase;
+	font: 13px/20px 'PTSansBold', arial, helvetica, sans-serif;
+}
+#slidingbar-area .text-block {
+}
+#slidingbar-area .holder-block img {
+	width: 100%;
+}
+#slidingbar-area ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+#slidingbar-area .widget_recent_entries ul li {
+	padding: 12px 0;
+	border-bottom: 1px solid #282a2b;
+
+	a {
+		padding: 0 0 5px 0;
+		border-bottom: none;
+	}
+}
+#slidingbar-area .slidingbar-widget-col:not(.widget_icl_lang_sel_widget) > ul > li:first-child,
+#slidingbar-area .slidingbar-widget-col:not(.widget_icl_lang_sel_widget) ul:first-child > li:first-child > a,
+#slidingbar-area .slidingbar-widget-col:not(.widget_icl_lang_sel_widget) > ul > li:first-child > a {
+	background-image: none;
+	padding-top: 0px;
+}
+.slidingbar-area a {
+	color: #bfbfbf;
+}
+#slidingbar-area ul li a:hover {
+	color: #a0ce4e;
+}
+#slidingbar-area ul#recentcomments li.recentcomments:first-child {
+	padding-top: 0px;
+	background: none;
+}
+#slidingbar-area li.recentcomments {
+	padding: 12px 0;
+	border-bottom: 1px solid #282a2b;
+	display: block;
+}
+#slidingbar-area li.recentcomments a {
+	border: none;
+}

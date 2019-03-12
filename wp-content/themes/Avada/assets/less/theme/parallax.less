@@ -1,0 +1,33 @@
+.bg-parallax-parent.video {
+	position: relative
+}
+
+.bg-parallax.video, .fusion-bg-parallax.video {
+	position: absolute;
+	pointer-events: none !important;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.bg-parallax.video iframe, .fusion-bg-parallax.video iframe {
+	margin-bottom: 0 !important;
+	display: block !important;
+	max-width: none !important;
+	max-height: none !important
+}
+
+.parallax-inner {
+	min-height: 150px
+}
+
+.fusion-bg-parallax[data-bg-size-adjust="dont-scale"] + .bg-parallax-parent .parallax-inner {
+	background-size: auto !important
+}
+//
+//body.vc_editor .bg-parallax.video, body.vc_editor .fusion-bg-parallax.video {
+//	display: none
+//}

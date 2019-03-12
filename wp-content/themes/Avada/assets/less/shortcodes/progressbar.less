@@ -1,0 +1,60 @@
+//** Background color of the whole progress component
+@progress-bg:				 #f5f5f5;
+//** Progress bar text color
+@progress-bar-color:		  #fff;
+//** Default progress bar color
+@progress-bar-bg:			 @primary-color;
+
+.fusion-progressbar {
+	position: relative;
+	margin-bottom: 10px;
+	
+	.progress-title {
+		margin: 0;
+		height: auto;
+		width: auto;
+		font-size: 13px;
+		font-weight: normal;
+	}	
+}
+
+.fusion-progressbar-text-on-bar {
+	.progress-title {
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		.transform( translate( 0, -50% ) );
+		clip: auto;
+		color: #fff;
+	}	
+}
+
+.fusion-progressbar-text-above-bar {
+	.progress-title {
+		display: inline-block;
+		margin-bottom: 5px;
+		color: #000;
+	}	
+}
+
+.fusion-progressbar-text-below-bar {
+	.progress-title {
+		display: inline-block;
+		margin-top: 5px;
+		color: #000;
+	}	
+}
+
+.fusion-progressbar-bar {
+	margin: 0;
+	height: 37px;
+	width: 100%;
+	background-color: #E6E7E8;
+	.border-radius( 0 );
+	.box-shadow( none );
+	
+	.progress {
+		background-color: #A0CE4E;
+		.box-shadow( none );
+	}
+}

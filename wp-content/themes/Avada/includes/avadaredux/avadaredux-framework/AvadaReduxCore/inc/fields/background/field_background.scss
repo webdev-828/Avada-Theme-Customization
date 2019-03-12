@@ -1,0 +1,59 @@
+.avadaredux-main {
+    .avadaredux-container-background {
+        .avadaredux-background-position,
+        .avadaredux-background-position select,
+        .avadaredux-background-attachment,
+        .avadaredux-background-attachment select,
+        .avadaredux-background-clip,
+        .avadaredux-background-clip select,
+        .avadaredux-background-origin,
+        .avadaredux-background-origin select,
+        .avadaredux-background-size,
+        .avadaredux-background-size select,
+        .avadaredux-background-repeat,
+        .avadaredux-background-repeat select {
+            width:200px !important;
+            margin-right: 10px;
+            margin-bottom: 7px;
+        }
+
+        .background-preview {
+            display:block;
+            width: 100%;
+            margin: 5px 0 10px;
+            border:1px dotted lightgray;
+        }
+
+        .select2-container {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .wp-picker-container {
+            margin-bottom: 10px;
+        }
+
+        .upload {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+
+    .avadaredux-container-select {
+        li.ui-state-highlight {
+            height: 20px;
+            margin-top:2px;
+            margin-left: 5px;
+            width: 64px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.wp-customizer {
+    .avadaredux-container-background {
+        .avadaredux-background-position, .avadaredux-background-position select, .avadaredux-background-attachment, .avadaredux-background-attachment select, .avadaredux-background-clip, .avadaredux-background-clip select, .avadaredux-background-origin, .avadaredux-background-origin select, .avadaredux-background-size, .avadaredux-background-size select, .avadaredux-background-repeat, .avadaredux-background-repeat select {
+            width: 100% !important;
+        }
+    }
+}
